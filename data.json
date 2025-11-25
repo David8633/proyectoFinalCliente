@@ -1,1410 +1,2603 @@
 {
-  "total_peliculas": 50,
-  "total_series": 50,
-  "contenido_filtrado": {
-    "peliculas": [
-      {
-        "id": 1,
-        "titulo": "Cadena perpetua",
-        "titulo_original": "The Shawshank Redemption",
-        "ano_lanzamiento": 1994,
-        "generos": ["Drama"],
-        "calificacion_imdb": 9.3,
-        "resumen": "Dos hombres encarcelados se unen a lo largo de varios años, encontrando consuelo y redención a través de actos de decencia común.",
-        "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Shawshank+9.3"
-      },
-      {
-        "id": 2,
-        "titulo": "El Padrino",
-        "titulo_original": "The Godfather",
-        "ano_lanzamiento": 1972,
-        "generos": ["Crimen", "Drama"],
-        "calificacion_imdb": 9.2,
-        "resumen": "La saga de la familia criminal Corleone bajo el patriarca Vito Corleone, que lucha por mantener su imperio.",
-        "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Godfather+9.2"
-      },
-      {
-        "id": 3,
-        "titulo": "El Caballero Oscuro",
-        "titulo_original": "The Dark Knight",
-        "ano_lanzamiento": 2008,
-        "generos": ["Acción", "Crimen", "Drama"],
-        "calificacion_imdb": 9.0,
-        "resumen": "Cuando el Joker siembra el caos en Gotham, Batman debe aceptar uno de los mayores desafíos psicológicos y físicos para combatir la injusticia.",
-        "url_caratula": "https://placehold.co/200x300/4b5563/ffffff?text=Dark+Knight+9.0"
-      },
-      {
-        "id": 5,
-        "titulo": "Pulp Fiction",
-        "titulo_original": "Pulp Fiction",
-        "ano_lanzamiento": 1994,
-        "generos": ["Crimen", "Drama"],
-        "calificacion_imdb": 8.9,
-        "resumen": "Las vidas de dos sicarios, un boxeador, un gánster y su esposa se entrelazan en cuatro historias de violencia y redención.",
-        "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Pulp+Fiction+8.9"
-      },
-      {
-        "id": 7,
-        "titulo": "El Señor de los Anillos: El Retorno del Rey",
-        "titulo_original": "The Lord of the Rings: The Return of the King",
-        "ano_lanzamiento": 2003,
-        "generos": ["Aventura", "Fantasía"],
-        "calificacion_imdb": 8.9,
-        "resumen": "Gandalf y Aragorn lideran a la humanidad en la batalla final, mientras Frodo y Sam se acercan al Monte del Destino para destruir el Anillo Único.",
-        "url_caratula": "https://placehold.co/200x300/059669/ffffff?text=LotR+King+8.9"
-      },
-      {
-        "id": 9,
-        "titulo": "La lista de Schindler",
-        "titulo_original": "Schindler's List",
-        "ano_lanzamiento": 1993,
-        "generos": ["Biografía", "Drama", "Historia"],
-        "calificacion_imdb": 9.0,
-        "resumen": "El industrial alemán Oskar Schindler se propone salvar a sus empleados judíos del Holocausto durante la Segunda Guerra Mundial.",
-        "url_caratula": "https://placehold.co/200x300/18181b/ffffff?text=Schindler+9.0"
-      },
-      {
-        "id": 11,
-        "titulo": "Forrest Gump",
-        "titulo_original": "Forrest Gump",
-        "ano_lanzamiento": 1994,
-        "generos": ["Drama", "Romance"],
-        "calificacion_imdb": 8.8,
-        "resumen": "La historia de un hombre con bajo coeficiente intelectual que accidentalmente influencia varios eventos históricos importantes en el siglo XX.",
-        "url_caratula": "https://placehold.co/200x300/9a3412/ffffff?text=Forrest+Gump+8.8"
-      },
-      {
-        "id": 13,
-        "titulo": "Origen",
-        "titulo_original": "Inception",
-        "ano_lanzamiento": 2010,
-        "generos": ["Acción", "Aventura", "Ciencia Ficción"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Un ladrón que roba secretos corporativos utilizando tecnología de compartir sueños tiene una última misión: plantar una idea en la mente de un director ejecutivo.",
-        "url_caratula": "https://placehold.co/200x300/6d28d9/ffffff?text=Inception+8.8"
-      },
-      {
-        "id": 15,
-        "titulo": "Tiempos Modernos",
-        "titulo_original": "Modern Times",
-        "ano_lanzamiento": 1936,
-        "generos": ["Comedia", "Drama", "Romance"],
-        "calificacion_imdb": 8.5,
-        "resumen": "El vagabundo lucha por sobrevivir en el mundo industrializado moderno, lidiando con máquinas y desempleo.",
-        "url_caratula": "https://placehold.co/200x300/71717a/ffffff?text=Modern+Times+8.5"
-      },
-      {
-        "id": 17,
-        "titulo": "Interestelar",
-        "titulo_original": "Interstellar",
-        "ano_lanzamiento": 2014,
-        "generos": ["Aventura", "Ciencia Ficción", "Drama"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Un grupo de exploradores utiliza un agujero de gusano para intentar asegurar la supervivencia de la humanidad en las estrellas.",
-        "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=Interstellar+8.6"
-      },
-      {
-        "id": 19,
-        "titulo": "¿Qué bello es vivir!",
-        "titulo_original": "It's a Wonderful Life",
-        "ano_lanzamiento": 1946,
-        "generos": ["Drama", "Fantasía", "Romance"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Un ángel es enviado del cielo para ayudar a un hombre de negocios frustrado y desesperado mostrándole cómo habría sido la vida si nunca hubiera existido.",
-        "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Wonderful+Life+8.6"
-      },
-      {
-        "id": 21,
-        "titulo": "El bueno, el feo y el malo",
-        "titulo_original": "The Good, the Bad and the Ugly",
-        "ano_lanzamiento": 1966,
-        "generos": ["Western", "Aventura"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Un cazarrecompensas, un bandido y un asesino se embarcan en la búsqueda de un tesoro de oro escondido en un cementerio.",
-        "url_caratula": "https://placehold.co/200x300/44403c/ffffff?text=The+Ugly+8.8"
-      },
-      {
-        "id": 22,
-        "titulo": "12 hombres sin piedad",
-        "titulo_original": "12 Angry Men",
-        "ano_lanzamiento": 1957,
-        "generos": ["Drama"],
-        "calificacion_imdb": 9.0,
-        "resumen": "Un jurado debe decidir la culpabilidad de un joven acusado de asesinato, y solo un miembro tiene dudas razonables.",
-        "url_caratula": "https://placehold.co/200x300/365314/ffffff?text=12+Angry+Men+9.0"
-      },
-      {
-        "id": 24,
-        "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
-        "titulo_original": "The Lord of the Rings: The Fellowship of the Ring",
-        "ano_lanzamiento": 2001,
-        "generos": ["Aventura", "Fantasía"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Un hobbit y ocho compañeros se embarcan en un viaje para destruir un poderoso Anillo y salvar la Tierra Media del Señor Oscuro Sauron.",
-        "url_caratula": "https://placehold.co/200x300/0f766e/ffffff?text=LotR+Fellowship+8.8"
-      },
-      {
-        "id": 26,
-        "titulo": "Seven: Se7en",
-        "titulo_original": "Se7en",
-        "ano_lanzamiento": 1995,
-        "generos": ["Crimen", "Drama", "Misterio"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Dos detectives, uno a punto de retirarse y otro recién llegado, persiguen a un asesino en serie que basa sus crímenes en los siete pecados capitales.",
-        "url_caratula": "https://placehold.co/200x300/27272a/ffffff?text=Se7en+8.6"
-      },
-      {
-        "id": 28,
-        "titulo": "El club de la lucha",
-        "titulo_original": "Fight Club",
-        "ano_lanzamiento": 1999,
-        "generos": ["Drama"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Un oficinista insomne, desesperado por cambiar su vida, forma un 'Club de la Lucha' clandestino con un fabricante de jabón carismático.",
-        "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Fight+Club+8.8"
-      },
-      {
-        "id": 30,
-        "titulo": "Matrix",
-        "titulo_original": "The Matrix",
-        "ano_lanzamiento": 1999,
-        "generos": ["Acción", "Ciencia Ficción"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Un programador descubre que la realidad es una simulación elaborada por máquinas inteligentes.",
-        "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=The+Matrix+8.7"
-      },
-      {
-        "id": 32,
-        "titulo": "Ciudad de Dios",
-        "titulo_original": "Cidade de Deus",
-        "ano_lanzamiento": 2002,
-        "generos": ["Crimen", "Drama"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Dos jóvenes crecen en un violento gueto de Río de Janeiro: uno se convierte en fotógrafo, el otro en traficante de drogas.",
-        "url_caratula": "https://placehold.co/200x300/7c2d12/ffffff?text=Ciudad+de+Dios+8.6"
-      },
-      {
-        "id": 34,
-        "titulo": "Salvar al soldado Ryan",
-        "titulo_original": "Saving Private Ryan",
-        "ano_lanzamiento": 1998,
-        "generos": ["Drama", "Guerra"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Tras el desembarco de Normandía, un grupo de soldados debe aventurarse detrás de las líneas enemigas para encontrar y traer a casa a un paracaidista.",
-        "url_caratula": "https://placehold.co/200x300/3f6212/ffffff?text=Saving+Private+Ryan+8.6"
-      },
-      {
-        "id": 36,
-        "titulo": "La Milla Verde",
-        "titulo_original": "The Green Mile",
-        "ano_lanzamiento": 1999,
-        "generos": ["Crimen", "Drama", "Fantasía"],
-        "calificacion_imdb": 8.6,
-        "resumen": "El guardia de una prisión de la década de 1930 recuerda su vida trabajando en el corredor de la muerte y el prisionero milagroso que conoció allí.",
-        "url_caratula": "https://placehold.co/200x300/065f46/ffffff?text=Green+Mile+8.6"
-      },
-      {
-        "id": 38,
-        "titulo": "Gladiator",
-        "titulo_original": "Gladiator",
-        "ano_lanzamiento": 2000,
-        "generos": ["Acción", "Aventura", "Drama"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Un general romano busca venganza contra el emperador corrupto que asesinó a su familia y lo envió a la esclavitud.",
-        "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Gladiator+8.5"
-      },
-      {
-        "id": 40,
-        "titulo": "El Pianista",
-        "titulo_original": "The Pianist",
-        "ano_lanzamiento": 2002,
-        "generos": ["Biografía", "Drama", "Guerra"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Un brillante pianista polaco judío lucha por sobrevivir en Varsovia durante la Segunda Guerra Mundial.",
-        "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=The+Pianist+8.5"
-      },
-      {
-        "id": 42,
-        "titulo": "V de Vendetta",
-        "titulo_original": "V for Vendetta",
-        "ano_lanzamiento": 2006,
-        "generos": ["Acción", "Drama", "Ciencia Ficción"],
-        "calificacion_imdb": 8.2,
-        "resumen": "En un futuro distópico, una joven es rescatada de una situación mortal por un enmascarado conocido solo como 'V', que busca la revolución.",
-        "url_caratula": "https://placehold.co/200x300/581c87/ffffff?text=V+for+Vendetta+8.2"
-      },
-      {
-        "id": 44,
-        "titulo": "American History X",
-        "titulo_original": "American History X",
-        "ano_lanzamiento": 1998,
-        "generos": ["Drama"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Un neonazi recién salido de prisión intenta evitar que su hermano menor siga el mismo camino violento.",
-        "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Am+History+X+8.5"
-      },
-      {
-        "id": 46,
-        "titulo": "Psicosis",
-        "titulo_original": "Psycho",
-        "ano_lanzamiento": 1960,
-        "generos": ["Terror", "Misterio", "Thriller"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Una secretaria de Phoenix roba 40.000 dólares de su jefe y se aloja en un motel regentado por un joven tímido llamado Norman Bates.",
-        "url_caratula": "https://placehold.co/200x300/262626/ffffff?text=Psycho+8.5"
-      },
-      {
-        "id": 48,
-        "titulo": "Braveheart",
-        "titulo_original": "Braveheart",
-        "ano_lanzamiento": 1995,
-        "generos": ["Biografía", "Drama", "Historia"],
-        "calificacion_imdb": 8.4,
-        "resumen": "En el siglo XIII, William Wallace inicia una revuelta contra el rey Eduardo I de Inglaterra después de que su esposa sea asesinada.",
-        "url_caratula": "https://placehold.co/200x300/104e8b/ffffff?text=Braveheart+8.4"
-      },
-      {
-        "id": 50,
-        "titulo": "Whiplash",
-        "titulo_original": "Whiplash",
-        "ano_lanzamiento": 2014,
-        "generos": ["Drama", "Música"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Un joven baterista de jazz se inscribe en un conservatorio de música de élite, donde es impulsado por un instructor abusivo.",
-        "url_caratula": "https://placehold.co/200x300/38bdf8/000000?text=Whiplash+8.5"
-      },
-      {
-        "id": 52,
-        "titulo": "Gran Torino",
-        "titulo_original": "Gran Torino",
-        "ano_lanzamiento": 2008,
-        "generos": ["Drama"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Un veterano de la Guerra de Corea, con prejuicios, forja una amistad improbable con su vecino adolescente de origen Hmong.",
-        "url_caratula": "https://placehold.co/200x300/94a3b8/ffffff?text=Gran+Torino+8.2"
-      },
-      {
-        "id": 54,
-        "titulo": "Malditos bastardos",
-        "titulo_original": "Inglourious Basterds",
-        "ano_lanzamiento": 2009,
-        "generos": ["Aventura", "Drama", "Guerra"],
-        "calificacion_imdb": 8.3,
-        "resumen": "En la Francia ocupada por los nazis, un grupo de soldados judíos-estadounidenses es enviado a castigar al enemigo.",
-        "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Basterds+8.3"
-      },
-      {
-        "id": 56,
-        "titulo": "Oldboy",
-        "titulo_original": "Oldeuboi",
-        "ano_lanzamiento": 2003,
-        "generos": ["Acción", "Drama", "Misterio"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Tras ser encarcelado por 15 años sin explicación, un hombre es liberado y tiene 5 días para encontrar a su secuestrador.",
-        "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Oldboy+8.4"
-      },
-      {
-        "id": 58,
-        "titulo": "Toy Story",
-        "titulo_original": "Toy Story",
-        "ano_lanzamiento": 1995,
-        "generos": ["Animación", "Aventura", "Comedia"],
-        "calificacion_imdb": 8.3,
-        "resumen": "Un vaquero de juguete se siente amenazado y celoso cuando un nuevo y moderno juguete espacial se convierte en el favorito de su dueño.",
-        "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Toy+Story+8.3"
-      },
-      {
-        "id": 60,
-        "titulo": "Eternal Sunshine of the Spotless Mind",
-        "titulo_original": "Eternal Sunshine of the Spotless Mind",
-        "ano_lanzamiento": 2004,
-        "generos": ["Drama", "Ciencia Ficción", "Romance"],
-        "calificacion_imdb": 8.3,
-        "resumen": "Una pareja que se somete a un procedimiento para borrarse mutuamente de sus recuerdos descubre lo profundo que es su amor.",
-        "url_caratula": "https://placehold.co/200x300/a78bfa/000000?text=Eternal+Sunshine+8.3"
-      },
-      {
-        "id": 62,
-        "titulo": "Aliens",
-        "titulo_original": "Aliens",
-        "ano_lanzamiento": 1986,
-        "generos": ["Acción", "Ciencia Ficción", "Terror"],
-        "calificacion_imdb": 8.3,
-        "resumen": "La única superviviente de una nave atacada por un alienígena despierta 57 años después para luchar contra una colmena de criaturas.",
-        "url_caratula": "https://placehold.co/200x300/101010/ffffff?text=Aliens+8.3"
-      },
-      {
-        "id": 64,
-        "titulo": "El laberinto del fauno",
-        "titulo_original": "El laberinto del fauno",
-        "ano_lanzamiento": 2006,
-        "generos": ["Drama", "Fantasía", "Guerra"],
-        "calificacion_imdb": 8.2,
-        "resumen": "En la España de 1944, una niña se evade a un mundo de fantasía lleno de criaturas mágicas, mientras su padrastro fascista lucha contra los rebeldes.",
-        "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Pan's+Labyrinth+8.2"
-      },
-      {
-        "id": 66,
-        "titulo": "Reservoir Dogs",
-        "titulo_original": "Reservoir Dogs",
-        "ano_lanzamiento": 1992,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 8.3,
-        "resumen": "Tras un robo de diamantes fallido, los criminales supervivientes sospechan que hay un soplón entre ellos.",
-        "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=Reservoir+Dogs+8.3"
-      },
-      {
-        "id": 68,
-        "titulo": "La vida de Brian",
-        "titulo_original": "Life of Brian",
-        "ano_lanzamiento": 1979,
-        "generos": ["Comedia"],
-        "calificacion_imdb": 8.0,
-        "resumen": "Brian nace el mismo día y al lado de Jesús y es confundido con el Mesías por sus seguidores.",
-        "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Life+of+Brian+8.0"
-      },
-      {
-        "id": 70,
-        "titulo": "Donnie Darko",
-        "titulo_original": "Donnie Darko",
-        "ano_lanzamiento": 2001,
-        "generos": ["Drama", "Misterio", "Ciencia Ficción"],
-        "calificacion_imdb": 8.0,
-        "resumen": "Un adolescente con problemas escapa por poco de un accidente y tiene visiones de un conejo macabro que lo manipula para cometer crímenes.",
-        "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Donnie+Darko+8.0"
-      },
-      {
-        "id": 72,
-        "titulo": "El Secreto de sus Ojos",
-        "titulo_original": "El Secreto de sus Ojos",
-        "ano_lanzamiento": 2009,
-        "generos": ["Drama", "Misterio", "Romance"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Un antiguo empleado judicial intenta escribir una novela sobre un caso de asesinato sin resolver del pasado, reviviendo recuerdos.",
-        "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=El+Secreto+8.2"
-      },
-      {
-        "id": 74,
-        "titulo": "Apocalypse Now",
-        "titulo_original": "Apocalypse Now",
-        "ano_lanzamiento": 1979,
-        "generos": ["Drama", "Guerra"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Un capitán del ejército es enviado a asesinar a un coronel renegado que se ha vuelto loco durante la Guerra de Vietnam.",
-        "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Apocalypse+Now+8.4"
-      },
-      {
-        "id": 76,
-        "titulo": "El Resplandor",
-        "titulo_original": "The Shining",
-        "ano_lanzamiento": 1980,
-        "generos": ["Drama", "Terror"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Un hombre acepta el puesto de vigilante de invierno en un hotel aislado, donde comienza a descender a la locura debido a influencias sobrenaturales.",
-        "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=The+Shining+8.4"
-      },
-      {
-        "id": 78,
-        "titulo": "Spider-Man: Un nuevo universo",
-        "titulo_original": "Spider-Man: Into the Spider-Verse",
-        "ano_lanzamiento": 2018,
-        "generos": ["Animación", "Acción", "Aventura"],
-        "calificacion_imdb": 8.4,
-        "resumen": "El adolescente Miles Morales se convierte en Spider-Man y une fuerzas con otras versiones de Spider-Man de diferentes universos.",
-        "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Spider-Verse+8.4"
-      },
-      {
-        "id": 80,
-        "titulo": "Parásitos",
-        "titulo_original": "Gisaengchung",
-        "ano_lanzamiento": 2019,
-        "generos": ["Comedia", "Drama", "Thriller"],
-        "calificacion_imdb": 8.5,
-        "resumen": "La codicia y la discriminación de clases amenazan la relación simbiótica recién formada entre dos familias.",
-        "url_caratula": "https://placehold.co/200x300/000000/ffffff?text=Parasite+8.5"
-      },
-      {
-        "id": 82,
-        "titulo": "El Renacido",
-        "titulo_original": "The Revenant",
-        "ano_lanzamiento": 2015,
-        "generos": ["Aventura", "Drama", "Western"],
-        "calificacion_imdb": 8.0,
-        "resumen": "Un trampero es atacado por un oso y abandonado por sus compañeros, luchando por la supervivencia y la venganza.",
-        "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=The+Revenant+8.0"
-      },
-      {
-        "id": 84,
-        "titulo": "E.T., el extraterrestre",
-        "titulo_original": "E.T. the Extra-Terrestrial",
-        "ano_lanzamiento": 1982,
-        "generos": ["Ciencia Ficción", "Familiar"],
-        "calificacion_imdb": 7.9,
-        "resumen": "Un joven llamado Elliott se hace amigo de un extraterrestre abandonado, y debe ayudarlo a escapar de la Tierra.",
-        "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=E.T.+7.9"
-      },
-      {
-        "id": 86,
-        "titulo": "Wall-E",
-        "titulo_original": "WALL·E",
-        "ano_lanzamiento": 2008,
-        "generos": ["Animación", "Aventura", "Familiar"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Un robot de limpieza se enamora de un robot explorador y la sigue al espacio, sin saber que tiene la clave para el futuro de la humanidad.",
-        "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Wall-E+8.4"
-      },
-      {
-        "id": 88,
-        "titulo": "La princesa Mononoke",
-        "titulo_original": "Mononoke-hime",
-        "ano_lanzamiento": 1997,
-        "generos": ["Animación", "Aventura", "Fantasía"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Un príncipe se involucra en una guerra entre dioses del bosque y los humanos que consumen sus recursos.",
-        "url_caratula": "https://placehold.co/200x300/065f46/ffffff?text=Mononoke+8.4"
-      },
-      {
-        "id": 90,
-        "titulo": "El Castillo Ambulante",
-        "titulo_original": "Hauru no ugoku shiro",
-        "ano_lanzamiento": 2004,
-        "generos": ["Animación", "Aventura", "Fantasía"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Una joven es maldecida por una bruja con un cuerpo anciano y busca la ayuda de un mago que vive en un castillo ambulante.",
-        "url_caratula": "https://placehold.co/200x300/9333ea/ffffff?text=Howl's+Castle+8.2"
-      },
-      {
-        "id": 92,
-        "titulo": "El Sexto Sentido",
-        "titulo_original": "The Sixth Sense",
-        "ano_lanzamiento": 1999,
-        "generos": ["Drama", "Misterio", "Thriller"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Un psicólogo infantil comienza a tratar a un niño que dice ver personas muertas.",
-        "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Sixth+Sense+8.2"
-      },
-      {
-        "id": 94,
-        "titulo": "Up",
-        "titulo_original": "Up",
-        "ano_lanzamiento": 2009,
-        "generos": ["Animación", "Aventura", "Comedia"],
-        "calificacion_imdb": 8.3,
-        "resumen": "Un anciano viudo ata miles de globos a su casa para cumplir la promesa que hizo a su difunta esposa: viajar a América del Sur.",
-        "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Up+8.3"
-      },
-      {
-        "id": 96,
-        "titulo": "El gran Lebowski",
-        "titulo_original": "The Big Lebowski",
-        "ano_lanzamiento": 1998,
-        "generos": ["Comedia", "Crimen"],
-        "calificacion_imdb": 8.1,
-        "resumen": "Un holgazán de Los Ángeles es confundido con un millonario y reclutado para una misión de rescate.",
-        "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Lebowski+8.1"
-      },
-      {
-        "id": 98,
-        "titulo": "Alien, el octavo pasajero",
-        "titulo_original": "Alien",
-        "ano_lanzamiento": 1979,
-        "generos": ["Ciencia Ficción", "Terror"],
-        "calificacion_imdb": 8.5,
-        "resumen": "La tripulación de una nave espacial comercial investiga una señal de socorro en un planeta desierto, donde se encuentran con una forma de vida hostil.",
-        "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Alien+8.5"
-      },
-      {
-        "id": 100,
-        "titulo": "El Indomable Will Hunting",
-        "titulo_original": "Good Will Hunting",
-        "ano_lanzamiento": 1997,
-        "generos": ["Drama", "Romance"],
-        "calificacion_imdb": 8.3,
-        "resumen": "Will Hunting, un genio no reconocido, debe reevaluar su vida después de que un profesor le ofrezca ayuda psicológica.",
-        "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=Will+Hunting+8.3"
-      },
-      {
-        "id": 101,
-        "titulo": "Atrápame si puedes",
-        "titulo_original": "Catch Me If You Can",
-        "ano_lanzamiento": 2002,
-        "generos": ["Biografía", "Crimen", "Drama"],
-        "calificacion_imdb": 8.1,
-        "resumen": "Frank Abagnale Jr. trabaja como médico, abogado y copiloto antes de cumplir 21 años. Un agente del FBI le sigue la pista.",
-        "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Catch+Me+If+You+Can+8.1"
-      },
-      {
-        "id": 102,
-        "titulo": "El show de Truman",
-        "titulo_original": "The Truman Show",
-        "ano_lanzamiento": 1998,
-        "generos": ["Comedia", "Drama", "Ciencia Ficción"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Un hombre descubre que toda su vida ha sido un reality show transmitido globalmente.",
-        "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=Truman+Show+8.2"
-      },
-      {
-        "id": 103,
-        "titulo": "El viaje de Chihiro",
-        "titulo_original": "Sen to Chihiro no kamikakushi",
-        "ano_lanzamiento": 2001,
-        "generos": ["Animación", "Aventura", "Familiar"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Una niña se encuentra atrapada en un mundo de espíritus, donde trabaja para liberar a sus padres, que han sido convertidos en cerdos.",
-        "url_caratula": "https://placehold.co/200x300/9333ea/ffffff?text=Spirited+Away+8.6"
-      },
-      {
-        "id": 104,
-        "titulo": "El club de los poetas muertos",
-        "titulo_original": "Dead Poets Society",
-        "ano_lanzamiento": 1989,
-        "generos": ["Comedia", "Drama"],
-        "calificacion_imdb": 8.1,
-        "resumen": "Un profesor de inglés no convencional inspira a sus alumnos a 'aprovechar el día'.",
-        "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Dead+Poets+8.1"
-      },
-      {
-        "id": 105,
-        "titulo": "El silencio de los corderos",
-        "titulo_original": "The Silence of the Lambs",
-        "ano_lanzamiento": 1991,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Una joven agente del FBI debe consultar a un asesino en serie caníbal para ayudar a capturar a otro asesino.",
-        "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=Silence+of+the+Lambs+8.6"
-      },
-      {
-        "id": 106,
-        "titulo": "Donnie Brasco",
-        "titulo_original": "Donnie Brasco",
-        "ano_lanzamiento": 1997,
-        "generos": ["Biografía", "Crimen", "Drama"],
-        "calificacion_imdb": 7.7,
-        "resumen": "Un agente del FBI se infiltra en la mafia de Nueva York y se hace amigo de un sicario que lo introduce en el mundo criminal.",
-        "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Donnie+Brasco+7.7"
-      },
-      {
-        "id": 107,
-        "titulo": "Trainspotting",
-        "titulo_original": "Trainspotting",
-        "ano_lanzamiento": 1996,
-        "generos": ["Drama"],
-        "calificacion_imdb": 8.1,
-        "resumen": "La vida de un adicto a la heroína en Edimburgo y sus amigos mientras intentan (y fracasan) dejar las drogas.",
-        "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Trainspotting+8.1"
-      },
-      {
-        "id": 108,
-        "titulo": "El lobo de Wall Street",
-        "titulo_original": "The Wolf of Wall Street",
-        "ano_lanzamiento": 2013,
-        "generos": ["Biografía", "Crimen", "Comedia"],
-        "calificacion_imdb": 8.2,
-        "resumen": "La verdadera historia de Jordan Belfort, desde el sueño americano hasta la codicia corporativa.",
-        "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=Wolf+of+Wall+Street+8.2"
-      },
-      {
-        "id": 109,
-        "titulo": "Bastardos sin gloria",
-        "titulo_original": "Inglourious Basterds",
-        "ano_lanzamiento": 2009,
-        "generos": ["Aventura", "Drama", "Guerra"],
-        "calificacion_imdb": 8.3,
-        "resumen": "Durante la Segunda Guerra Mundial, un grupo de soldados judíos-estadounidenses es enviado detrás de las líneas enemigas.",
-        "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Inglourious+Basterds+8.3"
-      },
-      {
-        "id": 110,
-        "titulo": "Regreso al futuro",
-        "titulo_original": "Back to the Future",
-        "ano_lanzamiento": 1985,
-        "generos": ["Aventura", "Comedia", "Ciencia Ficción"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Un adolescente es enviado accidentalmente 30 años atrás en el tiempo en un DeLorean modificado.",
-        "url_caratula": "https://placehold.co/200x300/6d28d9/ffffff?text=Back+to+the+Future+8.5"
-      }
-    ],
-    "series": [
-      {
-        "id": 4,
-        "titulo": "Breaking Bad",
-        "titulo_original": "Breaking Bad",
-        "ano_lanzamiento": 2008,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 9.5,
-        "resumen": "Un profesor de química de instituto con cáncer terminal se asocia con un antiguo alumno para fabricar y vender metanfetamina con el fin de asegurar el futuro financiero de su familia.",
-        "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Breaking+Bad+9.5"
-      },
-      {
-        "id": 6,
-        "titulo": "Juego de Tronos",
-        "titulo_original": "Game of Thrones",
-        "ano_lanzamiento": 2011,
-        "generos": ["Aventura", "Drama", "Fantasía"],
-        "calificacion_imdb": 9.2,
-        "resumen": "Nueve familias nobles luchan por el control de las tierras míticas de Poniente, mientras una antigua amenaza regresa más allá del Muro.",
-        "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Game+of+Thrones+9.2"
-      },
-      {
-        "id": 8,
-        "titulo": "Chernobyl",
-        "titulo_original": "Chernobyl",
-        "ano_lanzamiento": 2019,
-        "generos": ["Drama", "Historia", "Thriller"],
-        "calificacion_imdb": 9.3,
-        "resumen": "La historia real del desastre nuclear de 1986 en Ucrania, revelando cómo y por qué ocurrió, y los sacrificios de las personas para salvar a Europa de un desastre inimaginable.",
-        "url_caratula": "https://placehold.co/200x300/3f3f46/ffffff?text=Chernobyl+9.3"
-      },
-      {
-        "id": 10,
-        "titulo": "The Wire",
-        "titulo_original": "The Wire",
-        "ano_lanzamiento": 2002,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 9.3,
-        "resumen": "La interacción entre los traficantes de drogas y las fuerzas del orden en Baltimore, vista a través de los ojos de policías y criminales.",
-        "url_caratula": "https://placehold.co/200x300/4c4c4c/ffffff?text=The+Wire+9.3"
-      },
-      {
-        "id": 12,
-        "titulo": "The Sopranos",
-        "titulo_original": "The Sopranos",
-        "ano_lanzamiento": 1999,
-        "generos": ["Crimen", "Drama"],
-        "calificacion_imdb": 9.2,
-        "resumen": "El jefe de la mafia de Nueva Jersey, Tony Soprano, lucha por equilibrar su vida familiar con su carrera criminal.",
-        "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=Sopranos+9.2"
-      },
-      {
-        "id": 14,
-        "titulo": "Avatar: La Leyenda de Aang",
-        "titulo_original": "Avatar: The Last Airbender",
-        "ano_lanzamiento": 2005,
-        "generos": ["Animación", "Aventura", "Fantasía"],
-        "calificacion_imdb": 9.3,
-        "resumen": "El joven Aang, el Avatar, debe dominar los cuatro elementos para detener a la Nación del Fuego y restaurar el equilibrio en el mundo.",
-        "url_caratula": "https://placehold.co/200x300/06b6d4/ffffff?text=Avatar+Aang+9.3"
-      },
-      {
-        "id": 16,
-        "titulo": "Friends",
-        "titulo_original": "Friends",
-        "ano_lanzamiento": 1994,
-        "generos": ["Comedia", "Romance"],
-        "calificacion_imdb": 8.9,
-        "resumen": "Sigue las vidas de seis amigos veinteañeros mientras navegan por el amor, el trabajo y la vida en Manhattan.",
-        "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Friends+8.9"
-      },
-      {
-        "id": 18,
-        "titulo": "Rick y Morty",
-        "titulo_original": "Rick and Morty",
-        "ano_lanzamiento": 2013,
-        "generos": ["Animación", "Aventura", "Comedia"],
-        "calificacion_imdb": 9.1,
-        "resumen": "Las aventuras de un científico genio y sociópata y su nieto, menos brillante, a través del espacio y el tiempo.",
-        "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Rick+%26+Morty+9.1"
-      },
-      {
-        "id": 20,
-        "titulo": "Arcane",
-        "titulo_original": "Arcane",
-        "ano_lanzamiento": 2021,
-        "generos": ["Animación", "Acción", "Aventura"],
-        "calificacion_imdb": 9.0,
-        "resumen": "En la utópica Piltover y la opresiva Zaun, dos hermanas luchan en bandos opuestos de una guerra entre tecnologías mágicas y convicciones rotas.",
-        "url_caratula": "https://placehold.co/200x300/f87171/ffffff?text=Arcane+9.0"
-      },
-      {
-        "id": 23,
-        "titulo": "Planet Earth II",
-        "titulo_original": "Planet Earth II",
-        "ano_lanzamiento": 2016,
-        "generos": ["Documental"],
-        "calificacion_imdb": 9.5,
-        "resumen": "Una visión del mundo natural a través de diferentes hábitats: islas, montañas, selvas, desiertos y ciudades.",
-        "url_caratula": "https://placehold.co/200x300/0c4a6e/ffffff?text=Planet+Earth+II+9.5"
-      },
-      {
-        "id": 25,
-        "titulo": "Cosmos",
-        "titulo_original": "Cosmos: A Spacetime Odyssey",
-        "ano_lanzamiento": 2014,
-        "generos": ["Documental", "Ciencia Ficción"],
-        "calificacion_imdb": 9.3,
-        "resumen": "Neil deGrasse Tyson presenta una serie documental que explora el universo y las leyes de la naturaleza.",
-        "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=Cosmos+9.3"
-      },
-      {
-        "id": 27,
-        "titulo": "Fargo",
-        "titulo_original": "Fargo",
-        "ano_lanzamiento": 2014,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 8.9,
-        "resumen": "Una serie de crímenes se conecta con personajes que tratan de evitar la ley o de imponerla.",
-        "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Fargo+8.9"
-      },
-      {
-        "id": 29,
-        "titulo": "Band of Brothers",
-        "titulo_original": "Band of Brothers",
-        "ano_lanzamiento": 2001,
-        "generos": ["Drama", "Historia", "Guerra"],
-        "calificacion_imdb": 9.4,
-        "resumen": "La historia de la Easy Company, del 506.º Regimiento de Infantería de Paracaidistas de la 101.ª División Aerotransportada del Ejército de los Estados Unidos.",
-        "url_caratula": "https://placehold.co/200x300/6b7280/ffffff?text=Band+of+Brothers+9.4"
-      },
-      {
-        "id": 31,
-        "titulo": "True Detective",
-        "titulo_original": "True Detective",
-        "ano_lanzamiento": 2014,
-        "generos": ["Crimen", "Drama", "Misterio"],
-        "calificacion_imdb": 8.9,
-        "resumen": "Detectives investigan crímenes complejos, explorando a la vez sus vidas personales y profesionales.",
-        "url_caratula": "https://placehold.co/200x300/333333/ffffff?text=True+Detective+8.9"
-      },
-      {
-        "id": 33,
-        "titulo": "Peaky Blinders",
-        "titulo_original": "Peaky Blinders",
-        "ano_lanzamiento": 2013,
-        "generos": ["Crimen", "Drama"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Un gánster notorio de Birmingham después de la Primera Guerra Mundial, Tommy Shelby, lidera una pandilla ambiciosa y brutal.",
-        "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Peaky+Blinders+8.8"
-      },
-      {
-        "id": 35,
-        "titulo": "Sherlock",
-        "titulo_original": "Sherlock",
-        "ano_lanzamiento": 2010,
-        "generos": ["Crimen", "Drama", "Misterio"],
-        "calificacion_imdb": 9.1,
-        "resumen": "El famoso detective Sherlock Holmes y su compañero Dr. Watson resuelven misterios en el Londres del siglo XXI.",
-        "url_caratula": "https://placehold.co/200x300/155e75/ffffff?text=Sherlock+9.1"
-      },
-      {
-        "id": 37,
-        "titulo": "Black Mirror",
-        "titulo_original": "Black Mirror",
-        "ano_lanzamiento": 2011,
-        "generos": ["Drama", "Ciencia Ficción", "Thriller"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Una antología que explora un futuro cercano tecnológicamente avanzado donde los instintos más oscuros de la humanidad chocan con las innovaciones.",
-        "url_caratula": "https://placehold.co/200x300/000000/ffffff?text=Black+Mirror+8.8"
-      },
-      {
-        "id": 39,
-        "titulo": "Stranger Things",
-        "titulo_original": "Stranger Things",
-        "ano_lanzamiento": 2016,
-        "generos": ["Drama", "Fantasía", "Terror"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Tras la desaparición de un niño en una pequeña ciudad, una niña con poderes psicocinéticos aparece, desvelando misterios sobrenaturales.",
-        "url_caratula": "https://placehold.co/200x300/be123c/ffffff?text=Stranger+Things+8.7"
-      },
-      {
-        "id": 41,
-        "titulo": "Better Call Saul",
-        "titulo_original": "Better Call Saul",
-        "ano_lanzamiento": 2015,
-        "generos": ["Crimen", "Drama"],
-        "calificacion_imdb": 8.9,
-        "resumen": "Precuela de 'Breaking Bad' que sigue la transformación del abogado Jimmy McGill en el turbio Saul Goodman.",
-        "url_caratula": "https://placehold.co/200x300/f59e0b/ffffff?text=Better+Call+Saul+8.9"
-      },
-      {
-        "id": 43,
-        "titulo": "Arrested Development",
-        "titulo_original": "Arrested Development",
-        "ano_lanzamiento": 2003,
-        "generos": ["Comedia"],
-        "calificacion_imdb": 8.7,
-        "resumen": "El hijo, Michael Bluth, se ve obligado a hacerse cargo de los asuntos familiares después de que su padre sea encarcelado por fraude.",
-        "url_caratula": "https://placehold.co/200x300/7e22ce/ffffff?text=Arrested+Development+8.7"
-      },
-      {
-        "id": 45,
-        "titulo": "Fleabag",
-        "titulo_original": "Fleabag",
-        "ano_lanzamiento": 2016,
-        "generos": ["Comedia", "Drama"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Una joven sarcástica navega por la vida moderna en Londres mientras lidia con el dolor y la culpa.",
-        "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Fleabag+8.7"
-      },
-      {
-        "id": 47,
-        "titulo": "Rick and Morty: The Animated Series",
-        "titulo_original": "Rick and Morty: The Animated Series",
-        "ano_lanzamiento": 2013,
-        "generos": ["Animación", "Aventura", "Comedia"],
-        "calificacion_imdb": 9.1,
-        "resumen": "Las aventuras de un científico genio y sociópata y su nieto, menos brillante, a través del espacio y el tiempo.",
-        "url_caratula": "https://placehold.co/200x300/34d399/000000?text=R%26M+Animated+9.1"
-      },
-      {
-        "id": 49,
-        "titulo": "Mindhunter",
-        "titulo_original": "Mindhunter",
-        "ano_lanzamiento": 2017,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Dos agentes del FBI amplían la ciencia criminal investigando la psicología de los asesinos en serie.",
-        "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Mindhunter+8.6"
-      },
-      {
-        "id": 51,
-        "titulo": "Padre de familia",
-        "titulo_original": "Family Guy",
-        "ano_lanzamiento": 1999,
-        "generos": ["Animación", "Comedia"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Las aventuras de la familia Griffin, una familia disfuncional con un bebé malvado y un perro que habla.",
-        "url_caratula": "https://placehold.co/200x300/eab308/000000?text=Family+Guy+8.2"
-      },
-      {
-        "id": 53,
-        "titulo": "Ozark",
-        "titulo_original": "Ozark",
-        "ano_lanzamiento": 2017,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Un asesor financiero arrastra a su familia desde Chicago a los Ozarks, donde debe lavar 500 millones de dólares en cinco años para apaciguar a un capo de la droga.",
-        "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Ozark+8.5"
-      },
-      {
-        "id": 55,
-        "titulo": "Dark",
-        "titulo_original": "Dark",
-        "ano_lanzamiento": 2017,
-        "generos": ["Crimen", "Drama", "Misterio", "Ciencia Ficción"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Cuatro familias de un pueblo alemán comienzan a buscar desesperadamente a dos niños desaparecidos, desenterrando secretos que abarcan tres generaciones.",
-        "url_caratula": "https://placehold.co/200x300/171717/ffffff?text=Dark+8.7"
-      },
-      {
-        "id": 57,
-        "titulo": "The Crown",
-        "titulo_original": "The Crown",
-        "ano_lanzamiento": 2016,
-        "generos": ["Biografía", "Drama", "Historia"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Sigue las rivalidades políticas y los romances durante el reinado de la reina Isabel II, así como los eventos que dieron forma a la segunda mitad del siglo XX.",
-        "url_caratula": "https://placehold.co/200x300/94a3b8/000000?text=The+Crown+8.6"
-      },
-      {
-        "id": 59,
-        "titulo": "The Mandalorian",
-        "titulo_original": "The Mandalorian",
-        "ano_lanzamiento": 2019,
-        "generos": ["Acción", "Aventura", "Ciencia Ficción"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Las aventuras de un pistolero solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.",
-        "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Mandalorian+8.7"
-      },
-      {
-        "id": 61,
-        "titulo": "Succession",
-        "titulo_original": "Succession",
-        "ano_lanzamiento": 2018,
-        "generos": ["Drama"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Sigue a la familia Roy, dueña de un imperio de medios de comunicación y entretenimiento, mientras luchan por el control de la compañía.",
-        "url_caratula": "https://placehold.co/200x300/4c4c4c/ffffff?text=Succession+8.8"
-      },
-      {
-        "id": 63,
-        "titulo": "Line of Duty",
-        "titulo_original": "Line of Duty",
-        "ano_lanzamiento": 2012,
-        "generos": ["Crimen", "Drama", "Misterio"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Una unidad anticorrupción investiga a policías sospechosos de mala conducta o crímenes.",
-        "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Line+of+Duty+8.7"
-      },
-      {
-        "id": 65,
-        "titulo": "Attack on Titan",
-        "titulo_original": "Shingeki no Kyojin",
-        "ano_lanzamiento": 2013,
-        "generos": ["Animación", "Acción", "Aventura"],
-        "calificacion_imdb": 9.1,
-        "resumen": "La humanidad vive en ciudades protegidas por enormes murallas contra gigantes humanoides devoradores de hombres llamados Titanes.",
-        "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=AoT+9.1"
-      },
-      {
-        "id": 67,
-        "titulo": "Freaks and Geeks",
-        "titulo_original": "Freaks and Geeks",
-        "ano_lanzamiento": 1999,
-        "generos": ["Comedia", "Drama"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Sigue las vidas de dos grupos de estudiantes de secundaria, los 'freaks' (rebeldes) y los 'geeks' (nerds), en 1980.",
-        "url_caratula": "https://placehold.co/200x300/facc15/000000?text=Freaks+%26+Geeks+8.8"
-      },
-      {
-        "id": 69,
-        "titulo": "The Good Place",
-        "titulo_original": "The Good Place",
-        "ano_lanzamiento": 2016,
-        "generos": ["Comedia", "Drama", "Fantasía"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Una mujer que ha muerto es enviada por error a un cielo utópico y debe ocultar su pasado moralmente ambiguo.",
-        "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=Good+Place+8.2"
-      },
-      {
-        "id": 71,
-        "titulo": "Ted Lasso",
-        "titulo_original": "Ted Lasso",
-        "ano_lanzamiento": 2020,
-        "generos": ["Comedia", "Deportes"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Un entrenador de fútbol americano es contratado para dirigir un equipo de fútbol profesional en Inglaterra, a pesar de no tener experiencia.",
-        "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Ted+Lasso+8.8"
-      },
-      {
-        "id": 73,
-        "titulo": "House of Cards",
-        "titulo_original": "House of Cards",
-        "ano_lanzamiento": 2013,
-        "generos": ["Drama"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Un ambicioso congresista y su esposa están dispuestos a llegar a cualquier extremo para asegurar el poder en Washington D.C.",
-        "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=House+of+Cards+8.7"
-      },
-      {
-        "id": 75,
-        "titulo": "BoJack Horseman",
-        "titulo_original": "BoJack Horseman",
-        "ano_lanzamiento": 2014,
-        "generos": ["Animación", "Comedia", "Drama"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Un caballo que fue una estrella de una comedia de situación de los 90 intenta recuperar la fama mientras lidia con el alcoholismo y la depresión.",
-        "url_caratula": "https://placehold.co/200x300/7c3aed/ffffff?text=BoJack+8.8"
-      },
-      {
-        "id": 77,
-        "titulo": "Mr. Robot",
-        "titulo_original": "Mr. Robot",
-        "ano_lanzamiento": 2015,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Un programador de computadoras con ansiedad social trabaja como ingeniero de ciberseguridad y se une a un grupo de hackers anarquistas.",
-        "url_caratula": "https://placehold.co/200x300/18181b/ffffff?text=Mr+Robot+8.6"
-      },
-      {
-        "id": 79,
-        "titulo": "Westworld",
-        "titulo_original": "Westworld",
-        "ano_lanzamiento": 2016,
-        "generos": ["Drama", "Misterio", "Ciencia Ficción"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Un parque temático de vaqueros del Viejo Oeste poblado por androides 'anfitriones' comienza a experimentar fallas de comportamiento.",
-        "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Westworld+8.5"
-      },
-      {
-        "id": 81,
-        "titulo": "El Juego del Calamar",
-        "titulo_original": "Squid Game",
-        "ano_lanzamiento": 2021,
-        "generos": ["Acción", "Drama", "Misterio"],
-        "calificacion_imdb": 8.0,
-        "resumen": "Cientos de jugadores con problemas de dinero aceptan una extraña invitación para competir en juegos infantiles.",
-        "url_caratula": "https://placehold.co/200x300/b91c1c/ffffff?text=Squid+Game+8.0"
-      },
-      {
-        "id": 83,
-        "titulo": "Twin Peaks",
-        "titulo_original": "Twin Peaks",
-        "ano_lanzamiento": 1990,
-        "generos": ["Crimen", "Drama", "Fantasía"],
-        "calificacion_imdb": 8.8,
-        "resumen": "Un agente del FBI investiga el asesinato de la reina de la escuela secundaria, Laura Palmer, en una pequeña ciudad.",
-        "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Twin+Peaks+8.8"
-      },
-      {
-        "id": 85,
-        "titulo": "The Queen's Gambit",
-        "titulo_original": "The Queen's Gambit",
-        "ano_lanzamiento": 2020,
-        "generos": ["Drama"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Sigue la vida de una huérfana prodigio del ajedrez en su camino hacia la cima del mundo ajedrecístico.",
-        "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Queen's+Gambit+8.6"
-      },
-      {
-        "id": 87,
-        "titulo": "Monty Python's Flying Circus",
-        "titulo_original": "Monty Python's Flying Circus",
-        "ano_lanzamiento": 1969,
-        "generos": ["Comedia"],
-        "calificacion_imdb": 8.8,
-        "resumen": "La revolucionaria serie de comedia sketch de la troupe británica Monty Python.",
-        "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Monty+Python+8.8"
-      },
-      {
-        "id": 89,
-        "titulo": "Mad Men",
-        "titulo_original": "Mad Men",
-        "ano_lanzamiento": 2007,
-        "generos": ["Drama"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Las vidas de hombres y mujeres de una agencia de publicidad de Nueva York en la década de 1960.",
-        "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Mad+Men+8.7"
-      },
-      {
-        "id": 91,
-        "titulo": "Seinfeld",
-        "titulo_original": "Seinfeld",
-        "ano_lanzamiento": 1989,
-        "generos": ["Comedia"],
-        "calificacion_imdb": 8.9,
-        "resumen": "Sigue la vida de un comediante de stand-up y sus tres amigos en la ciudad de Nueva York.",
-        "url_caratula": "https://placehold.co/200x300/f97316/ffffff?text=Seinfeld+8.9"
-      },
-      {
-        "id": 93,
-        "titulo": "Carnival Row",
-        "titulo_original": "Carnival Row",
-        "ano_lanzamiento": 2019,
-        "generos": ["Fantasía", "Misterio", "Drama"],
-        "calificacion_imdb": 7.8,
-        "resumen": "Criaturas míticas que han huido de sus tierras devastadas por la guerra se reagrupan en una ciudad neo-victoriana, donde crece la tensión.",
-        "url_caratula": "https://placehold.co/200x300/713f12/ffffff?text=Carnival+Row+7.8"
-      },
-      {
-        "id": 95,
-        "titulo": "Atlanta",
-        "titulo_original": "Atlanta",
-        "ano_lanzamiento": 2016,
-        "generos": ["Comedia", "Drama", "Música"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Dos primos se abren camino en el panorama musical de Atlanta, con el objetivo de mejorar sus vidas y las de sus familias.",
-        "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Atlanta+8.6"
-      },
-      {
-        "id": 97,
-        "titulo": "The Office (US)",
-        "titulo_original": "The Office (US)",
-        "ano_lanzamiento": 2005,
-        "generos": ["Comedia"],
-        "calificacion_imdb": 9.0,
-        "resumen": "Un falso documental que narra las vidas cotidianas de los empleados de una empresa de papel.",
-        "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=The+Office+9.0"
-      },
-      {
-        "id": 99,
-        "titulo": "Community",
-        "titulo_original": "Community",
-        "ano_lanzamiento": 2009,
-        "generos": ["Comedia"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Un abogado deshabilitado es obligado a volver a la universidad comunitaria, donde forma un grupo de estudio con un grupo de inadaptados.",
-        "url_caratula": "https://placehold.co/200x300/fbbf24/000000?text=Community+8.5"
-      },
-      {
-        "id": 111,
-        "titulo": "The Haunting of Hill House",
-        "titulo_original": "The Haunting of Hill House",
-        "ano_lanzamiento": 2018,
-        "generos": ["Drama", "Terror", "Misterio"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Una familia dispersa debe enfrentarse a los aterradores recuerdos de su antiguo hogar y los eventos que los obligaron a abandonarlo.",
-        "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Hill+House+8.6"
-      },
-      {
-        "id": 112,
-        "titulo": "The Expanse",
-        "titulo_original": "The Expanse",
-        "ano_lanzamiento": 2015,
-        "generos": ["Drama", "Misterio", "Ciencia Ficción"],
-        "calificacion_imdb": 8.5,
-        "resumen": "En un futuro donde la humanidad ha colonizado el sistema solar, un detective y un capitán de nave se unen para desentrañar una gran conspiración.",
-        "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=The+Expanse+8.5"
-      },
-      {
-        "id": 113,
-        "titulo": "One-Punch Man",
-        "titulo_original": "One-Punch Man",
-        "ano_lanzamiento": 2015,
-        "generos": ["Animación", "Acción", "Comedia"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Saitama, un héroe que puede derrotar a cualquier enemigo con un solo golpe, se enfrenta al aburrimiento y a la falta de reconocimiento.",
-        "url_caratula": "https://placehold.co/200x300/f87171/ffffff?text=One-Punch+Man+8.7"
-      },
-      {
-        "id": 114,
-        "titulo": "Daredevil",
-        "titulo_original": "Daredevil",
-        "ano_lanzamiento": 2015,
-        "generos": ["Acción", "Crimen", "Drama"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Ciego desde niño, Matt Murdock lucha contra la injusticia de día como abogado y de noche como el superhéroe Daredevil.",
-        "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Daredevil+8.6"
-      },
-      {
-        "id": 115,
-        "titulo": "Outlander",
-        "titulo_original": "Outlander",
-        "ano_lanzamiento": 2014,
-        "generos": ["Drama", "Fantasía", "Romance"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Una enfermera de combate de 1945 es misteriosamente transportada a 1743 en Escocia.",
-        "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Outlander+8.4"
-      },
-      {
-        "id": 116,
-        "titulo": "Sense8",
-        "titulo_original": "Sense8",
-        "ano_lanzamiento": 2015,
-        "generos": ["Drama", "Misterio", "Ciencia Ficción"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Ocho extraños de diferentes partes del mundo desarrollan una conexión telepática y deben unirse para sobrevivir a un grupo que los persigue.",
-        "url_caratula": "https://placehold.co/200x300/94a3b8/ffffff?text=Sense8+8.2"
-      },
-      {
-        "id": 117,
-        "titulo": "Homeland",
-        "titulo_original": "Homeland",
-        "ano_lanzamiento": 2011,
-        "generos": ["Drama", "Misterio", "Thriller"],
-        "calificacion_imdb": 8.3,
-        "resumen": "Una agente de la CIA cree que un sargento de la Marina liberado, que estuvo cautivo de Al-Qaeda, puede ser un agente durmiente.",
-        "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Homeland+8.3"
-      },
-      {
-        "id": 118,
-        "titulo": "Doctor Who",
-        "titulo_original": "Doctor Who",
-        "ano_lanzamiento": 2005,
-        "generos": ["Aventura", "Drama", "Ciencia Ficción"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Un excéntrico 'Señor del Tiempo' viaja por el espacio y el tiempo en su máquina TARDIS, combatiendo el mal.",
-        "url_caratula": "https://placehold.co/200x300/06b6d4/ffffff?text=Doctor+Who+8.6"
-      },
-      {
-        "id": 119,
-        "titulo": "Westworld: Season 1",
-        "titulo_original": "Westworld: Season 1",
-        "ano_lanzamiento": 2016,
-        "generos": ["Drama", "Misterio", "Ciencia Ficción"],
-        "calificacion_imdb": 8.5,
-        "resumen": "El despertar de la conciencia de los anfitriones en un parque temático futurista.",
-        "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Westworld+S1+8.5"
-      },
-      {
-        "id": 120,
-        "titulo": "Narcos",
-        "titulo_original": "Narcos",
-        "ano_lanzamiento": 2015,
-        "generos": ["Biografía", "Crimen", "Drama"],
-        "calificacion_imdb": 8.8,
-        "resumen": "La vida del narcotraficante Pablo Escobar, jefe del cartel de Medellín, y los agentes del DEA que intentan detenerlo.",
-        "url_caratula": "https://placehold.co/200x300/7c2d12/ffffff?text=Narcos+8.8"
-      },
-      {
-        "id": 121,
-        "titulo": "The Handmaid's Tale",
-        "titulo_original": "The Handmaid's Tale",
-        "ano_lanzamiento": 2017,
-        "generos": ["Drama", "Ciencia Ficción", "Thriller"],
-        "calificacion_imdb": 8.4,
-        "resumen": "En una sociedad distópica, una mujer se ve obligada a vivir como concubina bajo una dictadura fundamentalista.",
-        "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Handmaid's+Tale+8.4"
-      },
-      {
-        "id": 122,
-        "titulo": "Kingdom",
-        "titulo_original": "Kingdom",
-        "ano_lanzamiento": 2019,
-        "generos": ["Acción", "Drama", "Terror"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Un príncipe heredero lucha contra una misteriosa plaga de zombis que se propaga en Corea durante la Dinastía Joseon.",
-        "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Kingdom+8.4"
-      },
-      {
-        "id": 123,
-        "titulo": "Dark: Season 1",
-        "titulo_original": "Dark: Season 1",
-        "ano_lanzamiento": 2017,
-        "generos": ["Crimen", "Drama", "Misterio", "Ciencia Ficción"],
-        "calificacion_imdb": 8.7,
-        "resumen": "La desaparición de un niño expone secretos y lazos que conectan cuatro familias a lo largo de tres generaciones.",
-        "url_caratula": "https://placehold.co/200x300/171717/ffffff?text=Dark+S1+8.7"
-      },
-      {
-        "id": 124,
-        "titulo": "Brooklyn Nine-Nine",
-        "titulo_original": "Brooklyn Nine-Nine",
-        "ano_lanzamiento": 2013,
-        "generos": ["Comedia", "Crimen"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Las payasadas de un equipo de detectives inmaduros pero capaces en el distrito 99 de Brooklyn.",
-        "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Brooklyn+99+8.4"
-      },
-      {
-        "id": 125,
-        "titulo": "Mindhunter: Season 1",
-        "titulo_original": "Mindhunter: Season 1",
-        "ano_lanzamiento": 2017,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 8.6,
-        "resumen": "Los inicios del FBI en el estudio de la mente de los asesinos en serie.",
-        "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Mindhunter+S1+8.6"
-      },
-      {
-        "id": 126,
-        "titulo": "The Boys",
-        "titulo_original": "The Boys",
-        "ano_lanzamiento": 2019,
-        "generos": ["Acción", "Comedia", "Crimen"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Un grupo de vigilantes se propone derribar a superhéroes corruptos con nada más que coraje y voluntad para luchar sucio.",
-        "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=The+Boys+8.7"
-      },
-      {
-        "id": 127,
-        "titulo": "Better Call Saul: Season 1",
-        "titulo_original": "Better Call Saul: Season 1",
-        "ano_lanzamiento": 2015,
-        "generos": ["Crimen", "Drama"],
-        "calificacion_imdb": 8.9,
-        "resumen": "La vida del abogado Jimmy McGill antes de convertirse en Saul Goodman.",
-        "url_caratula": "https://placehold.co/200x300/f59e0b/ffffff?text=BCS+S1+8.9"
-      },
-      {
-        "id": 128,
-        "titulo": "Derry Girls",
-        "titulo_original": "Derry Girls",
-        "ano_lanzamiento": 2018,
-        "generos": ["Comedia"],
-        "calificacion_imdb": 8.5,
-        "resumen": "Las vidas de un grupo de chicas de secundaria durante los 'Troubles' en Irlanda del Norte.",
-        "url_caratula": "https://placehold.co/200x300/94a3b8/000000?text=Derry+Girls+8.5"
-      },
-      {
-        "id": 129,
-        "titulo": "Sex Education",
-        "titulo_original": "Sex Education",
-        "ano_lanzamiento": 2019,
-        "generos": ["Comedia", "Drama"],
-        "calificacion_imdb": 8.3,
-        "resumen": "Un adolescente disfuncional con una madre terapeuta sexual establece una clínica de terapia sexual clandestina en su escuela.",
-        "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Sex+Education+8.3"
-      },
-      {
-        "id": 130,
-        "titulo": "This Is Us",
-        "titulo_original": "This Is Us",
-        "ano_lanzamiento": 2016,
-        "generos": ["Comedia", "Drama", "Romance"],
-        "calificacion_imdb": 8.7,
-        "resumen": "Las vidas de los hermanos Pearson a través de varias décadas, a menudo a través de flashbacks.",
-        "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=This+Is+Us+8.7"
-      },
-      {
-        "id": 131,
-        "titulo": "Fleabag: Season 1",
-        "titulo_original": "Fleabag: Season 1",
-        "ano_lanzamiento": 2016,
-        "generos": ["Comedia", "Drama"],
-        "calificacion_imdb": 8.7,
-        "resumen": "La vida de una mujer que busca el amor y la redención en el Londres moderno.",
-        "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Fleabag+S1+8.7"
-      },
-      {
-        "id": 132,
-        "titulo": "The Umbrella Academy",
-        "titulo_original": "The Umbrella Academy",
-        "ano_lanzamiento": 2019,
-        "generos": ["Acción", "Aventura", "Comedia"],
-        "calificacion_imdb": 8.0,
-        "resumen": "Hermanos adoptados con superpoderes se reúnen después de la muerte de su padre y descubren un inminente apocalipsis.",
-        "url_caratula": "https://placehold.co/200x300/581c87/ffffff?text=Umbrella+Academy+8.0"
-      },
-      {
-        "id": 133,
-        "titulo": "Fargo: Season 1",
-        "titulo_original": "Fargo: Season 1",
-        "ano_lanzamiento": 2014,
-        "generos": ["Crimen", "Drama", "Thriller"],
-        "calificacion_imdb": 8.9,
-        "resumen": "Una cadena de asesinatos golpea una pequeña ciudad de Minnesota tras la llegada de un asesino a sueldo.",
-        "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Fargo+S1+8.9"
-      },
-      {
-        "id": 134,
-        "titulo": "Lucifer",
-        "titulo_original": "Lucifer",
-        "ano_lanzamiento": 2016,
-        "generos": ["Crimen", "Drama", "Fantasía"],
-        "calificacion_imdb": 8.1,
-        "resumen": "El Diablo abandona el Infierno y se muda a Los Ángeles para abrir un club nocturno y se convierte en consultor del LAPD.",
-        "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Lucifer+8.1"
-      },
-      {
-        "id": 135,
-        "titulo": "The Good Place: Season 1",
-        "titulo_original": "The Good Place: Season 1",
-        "ano_lanzamiento": 2016,
-        "generos": ["Comedia", "Drama", "Fantasía"],
-        "calificacion_imdb": 8.2,
-        "resumen": "Eleanor Shellstrop llega al Buen Lugar por error y trata de convertirse en una mejor persona.",
-        "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=Good+Place+S1+8.2"
-      },
-      {
-        "id": 136,
-        "titulo": "The Witcher",
-        "titulo_original": "The Witcher",
-        "ano_lanzamiento": 2019,
-        "generos": ["Acción", "Aventura", "Fantasía"],
-        "calificacion_imdb": 8.1,
-        "resumen": "Geralt de Rivia, un cazador de monstruos solitario, lucha por encontrar su lugar en un mundo donde la gente es más malvada que las bestias.",
-        "url_caratula": "https://placehold.co/200x300/0f766e/ffffff?text=The+Witcher+8.1"
-      },
-      {
-        "id": 137,
-        "titulo": "The Last Kingdom",
-        "titulo_original": "The Last Kingdom",
-        "ano_lanzamiento": 2015,
-        "generos": ["Acción", "Drama", "Historia"],
-        "calificacion_imdb": 8.4,
-        "resumen": "Mientras Alfredo el Grande defiende su reino de los invasores nórdicos, Uhtred, un sajón criado por vikingos, busca su derecho de nacimiento.",
-        "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Last+Kingdom+8.4"
-      },
-      {
-        "id": 138,
-        "titulo": "House of the Dragon",
-        "titulo_original": "House of the Dragon",
-        "ano_lanzamiento": 2022,
-        "generos": ["Acción", "Aventura", "Drama"],
-        "calificacion_imdb": 8.4,
-        "resumen": "La historia de la Casa Targaryen, 200 años antes de los eventos de Game of Thrones.",
-        "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=House+of+the+Dragon+8.4"
-      },
-      {
-        "id": 139,
-        "titulo": "Only Murders in the Building",
-        "titulo_original": "Only Murders in the Building",
-        "ano_lanzamiento": 2021,
-        "generos": ["Comedia", "Crimen", "Drama"],
-        "calificacion_imdb": 8.1,
-        "resumen": "Tres extraños que comparten una obsesión por el true crime se encuentran envueltos en uno propio.",
-        "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Only+Murders+8.1"
-      },
-      {
-        "id": 140,
-        "titulo": "The Marvelous Mrs. Maisel",
-        "titulo_original": "The Marvelous Mrs. Maisel",
-        "ano_lanzamiento": 2017,
-        "generos": ["Comedia", "Drama"],
-        "calificacion_imdb": 8.7,
-        "resumen": "En el Nueva York de 1958, la vida de Midge Maisel da un giro inesperado cuando descubre un talento oculto para la comedia stand-up.",
-        "url_caratula": "https://placehold.co/200x300/eab308/000000?text=Mrs+Maisel+8.7"
-      }
-    ]
-  }
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Cadena perpetua",
+      "titulo_original": "The Shawshank Redemption",
+      "ano_lanzamiento": 1994,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 9.3,
+      "resumen": "Dos hombres encarcelados se unen a lo largo de varios años, encontrando consuelo y redención a través de actos de decencia común.",
+      "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Shawshank+9.3"
+    },
+    {
+      "id": 2,
+      "titulo": "El Padrino",
+      "titulo_original": "The Godfather",
+      "ano_lanzamiento": 1972,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 9.2,
+      "resumen": "La saga de la familia criminal Corleone bajo el patriarca Vito Corleone, que lucha por mantener su imperio.",
+      "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Godfather+9.2"
+    },
+    {
+      "id": 3,
+      "titulo": "El Caballero Oscuro",
+      "titulo_original": "The Dark Knight",
+      "ano_lanzamiento": 2008,
+      "generos": [
+        "Acción",
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 9.0,
+      "resumen": "Cuando el Joker siembra el caos en Gotham, Batman debe aceptar uno de los mayores desafíos psicológicos y físicos para combatir la injusticia.",
+      "url_caratula": "https://placehold.co/200x300/4b5563/ffffff?text=Dark+Knight+9.0"
+    },
+    {
+      "id": 5,
+      "titulo": "Pulp Fiction",
+      "titulo_original": "Pulp Fiction",
+      "ano_lanzamiento": 1994,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "Las vidas de dos sicarios, un boxeador, un gánster y su esposa se entrelazan en cuatro historias de violencia y redención.",
+      "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Pulp+Fiction+8.9"
+    },
+    {
+      "id": 7,
+      "titulo": "El Señor de los Anillos: El Retorno del Rey",
+      "titulo_original": "The Lord of the Rings: The Return of the King",
+      "ano_lanzamiento": 2003,
+      "generos": [
+        "Aventura",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "Gandalf y Aragorn lideran a la humanidad en la batalla final, mientras Frodo y Sam se acercan al Monte del Destino para destruir el Anillo Único.",
+      "url_caratula": "https://placehold.co/200x300/059669/ffffff?text=LotR+King+8.9"
+    },
+    {
+      "id": 9,
+      "titulo": "La lista de Schindler",
+      "titulo_original": "Schindler's List",
+      "ano_lanzamiento": 1993,
+      "generos": [
+        "Biografía",
+        "Drama",
+        "Historia"
+      ],
+      "calificacion_imdb": 9.0,
+      "resumen": "El industrial alemán Oskar Schindler se propone salvar a sus empleados judíos del Holocausto durante la Segunda Guerra Mundial.",
+      "url_caratula": "https://placehold.co/200x300/18181b/ffffff?text=Schindler+9.0"
+    },
+    {
+      "id": 11,
+      "titulo": "Forrest Gump",
+      "titulo_original": "Forrest Gump",
+      "ano_lanzamiento": 1994,
+      "generos": [
+        "Drama",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "La historia de un hombre con bajo coeficiente intelectual que accidentalmente influencia varios eventos históricos importantes en el siglo XX.",
+      "url_caratula": "https://placehold.co/200x300/9a3412/ffffff?text=Forrest+Gump+8.8"
+    },
+    {
+      "id": 13,
+      "titulo": "Origen",
+      "titulo_original": "Inception",
+      "ano_lanzamiento": 2010,
+      "generos": [
+        "Acción",
+        "Aventura",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Un ladrón que roba secretos corporativos utilizando tecnología de compartir sueños tiene una última misión: plantar una idea en la mente de un director ejecutivo.",
+      "url_caratula": "https://placehold.co/200x300/6d28d9/ffffff?text=Inception+8.8"
+    },
+    {
+      "id": 15,
+      "titulo": "Tiempos Modernos",
+      "titulo_original": "Modern Times",
+      "ano_lanzamiento": 1936,
+      "generos": [
+        "Comedia",
+        "Drama",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "El vagabundo lucha por sobrevivir en el mundo industrializado moderno, lidiando con máquinas y desempleo.",
+      "url_caratula": "https://placehold.co/200x300/71717a/ffffff?text=Modern+Times+8.5"
+    },
+    {
+      "id": 17,
+      "titulo": "Interestelar",
+      "titulo_original": "Interstellar",
+      "ano_lanzamiento": 2014,
+      "generos": [
+        "Aventura",
+        "Ciencia Ficción",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Un grupo de exploradores utiliza un agujero de gusano para intentar asegurar la supervivencia de la humanidad en las estrellas.",
+      "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=Interstellar+8.6"
+    },
+    {
+      "id": 19,
+      "titulo": "¿Qué bello es vivir!",
+      "titulo_original": "It's a Wonderful Life",
+      "ano_lanzamiento": 1946,
+      "generos": [
+        "Drama",
+        "Fantasía",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Un ángel es enviado del cielo para ayudar a un hombre de negocios frustrado y desesperado mostrándole cómo habría sido la vida si nunca hubiera existido.",
+      "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Wonderful+Life+8.6"
+    },
+    {
+      "id": 21,
+      "titulo": "El bueno, el feo y el malo",
+      "titulo_original": "The Good, the Bad and the Ugly",
+      "ano_lanzamiento": 1966,
+      "generos": [
+        "Western",
+        "Aventura"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Un cazarrecompensas, un bandido y un asesino se embarcan en la búsqueda de un tesoro de oro escondido en un cementerio.",
+      "url_caratula": "https://placehold.co/200x300/44403c/ffffff?text=The+Ugly+8.8"
+    },
+    {
+      "id": 22,
+      "titulo": "12 hombres sin piedad",
+      "titulo_original": "12 Angry Men",
+      "ano_lanzamiento": 1957,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 9.0,
+      "resumen": "Un jurado debe decidir la culpabilidad de un joven acusado de asesinato, y solo un miembro tiene dudas razonables.",
+      "url_caratula": "https://placehold.co/200x300/365314/ffffff?text=12+Angry+Men+9.0"
+    },
+    {
+      "id": 24,
+      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "titulo_original": "The Lord of the Rings: The Fellowship of the Ring",
+      "ano_lanzamiento": 2001,
+      "generos": [
+        "Aventura",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Un hobbit y ocho compañeros se embarcan en un viaje para destruir un poderoso Anillo y salvar la Tierra Media del Señor Oscuro Sauron.",
+      "url_caratula": "https://placehold.co/200x300/0f766e/ffffff?text=LotR+Fellowship+8.8"
+    },
+    {
+      "id": 26,
+      "titulo": "Seven: Se7en",
+      "titulo_original": "Se7en",
+      "ano_lanzamiento": 1995,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Misterio"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Dos detectives, uno a punto de retirarse y otro recién llegado, persiguen a un asesino en serie que basa sus crímenes en los siete pecados capitales.",
+      "url_caratula": "https://placehold.co/200x300/27272a/ffffff?text=Se7en+8.6"
+    },
+    {
+      "id": 28,
+      "titulo": "El club de la lucha",
+      "titulo_original": "Fight Club",
+      "ano_lanzamiento": 1999,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Un oficinista insomne, desesperado por cambiar su vida, forma un 'Club de la Lucha' clandestino con un fabricante de jabón carismático.",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Fight+Club+8.8"
+    },
+    {
+      "id": 30,
+      "titulo": "Matrix",
+      "titulo_original": "The Matrix",
+      "ano_lanzamiento": 1999,
+      "generos": [
+        "Acción",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Un programador descubre que la realidad es una simulación elaborada por máquinas inteligentes.",
+      "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=The+Matrix+8.7"
+    },
+    {
+      "id": 32,
+      "titulo": "Ciudad de Dios",
+      "titulo_original": "Cidade de Deus",
+      "ano_lanzamiento": 2002,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Dos jóvenes crecen en un violento gueto de Río de Janeiro: uno se convierte en fotógrafo, el otro en traficante de drogas.",
+      "url_caratula": "https://placehold.co/200x300/7c2d12/ffffff?text=Ciudad+de+Dios+8.6"
+    },
+    {
+      "id": 34,
+      "titulo": "Salvar al soldado Ryan",
+      "titulo_original": "Saving Private Ryan",
+      "ano_lanzamiento": 1998,
+      "generos": [
+        "Drama",
+        "Guerra"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Tras el desembarco de Normandía, un grupo de soldados debe aventurarse detrás de las líneas enemigas para encontrar y traer a casa a un paracaidista.",
+      "url_caratula": "https://placehold.co/200x300/3f6212/ffffff?text=Saving+Private+Ryan+8.6"
+    },
+    {
+      "id": 36,
+      "titulo": "La Milla Verde",
+      "titulo_original": "The Green Mile",
+      "ano_lanzamiento": 1999,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "El guardia de una prisión de la década de 1930 recuerda su vida trabajando en el corredor de la muerte y el prisionero milagroso que conoció allí.",
+      "url_caratula": "https://placehold.co/200x300/065f46/ffffff?text=Green+Mile+8.6"
+    },
+    {
+      "id": 38,
+      "titulo": "Gladiator",
+      "titulo_original": "Gladiator",
+      "ano_lanzamiento": 2000,
+      "generos": [
+        "Acción",
+        "Aventura",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Un general romano busca venganza contra el emperador corrupto que asesinó a su familia y lo envió a la esclavitud.",
+      "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Gladiator+8.5"
+    },
+    {
+      "id": 40,
+      "titulo": "El Pianista",
+      "titulo_original": "The Pianist",
+      "ano_lanzamiento": 2002,
+      "generos": [
+        "Biografía",
+        "Drama",
+        "Guerra"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Un brillante pianista polaco judío lucha por sobrevivir en Varsovia durante la Segunda Guerra Mundial.",
+      "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=The+Pianist+8.5"
+    },
+    {
+      "id": 42,
+      "titulo": "V de Vendetta",
+      "titulo_original": "V for Vendetta",
+      "ano_lanzamiento": 2006,
+      "generos": [
+        "Acción",
+        "Drama",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "En un futuro distópico, una joven es rescatada de una situación mortal por un enmascarado conocido solo como 'V', que busca la revolución.",
+      "url_caratula": "https://placehold.co/200x300/581c87/ffffff?text=V+for+Vendetta+8.2"
+    },
+    {
+      "id": 44,
+      "titulo": "American History X",
+      "titulo_original": "American History X",
+      "ano_lanzamiento": 1998,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Un neonazi recién salido de prisión intenta evitar que su hermano menor siga el mismo camino violento.",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Am+History+X+8.5"
+    },
+    {
+      "id": 46,
+      "titulo": "Psicosis",
+      "titulo_original": "Psycho",
+      "ano_lanzamiento": 1960,
+      "generos": [
+        "Terror",
+        "Misterio",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Una secretaria de Phoenix roba 40.000 dólares de su jefe y se aloja en un motel regentado por un joven tímido llamado Norman Bates.",
+      "url_caratula": "https://placehold.co/200x300/262626/ffffff?text=Psycho+8.5"
+    },
+    {
+      "id": 48,
+      "titulo": "Braveheart",
+      "titulo_original": "Braveheart",
+      "ano_lanzamiento": 1995,
+      "generos": [
+        "Biografía",
+        "Drama",
+        "Historia"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "En el siglo XIII, William Wallace inicia una revuelta contra el rey Eduardo I de Inglaterra después de que su esposa sea asesinada.",
+      "url_caratula": "https://placehold.co/200x300/104e8b/ffffff?text=Braveheart+8.4"
+    },
+    {
+      "id": 50,
+      "titulo": "Whiplash",
+      "titulo_original": "Whiplash",
+      "ano_lanzamiento": 2014,
+      "generos": [
+        "Drama",
+        "Música"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Un joven baterista de jazz se inscribe en un conservatorio de música de élite, donde es impulsado por un instructor abusivo.",
+      "url_caratula": "https://placehold.co/200x300/38bdf8/000000?text=Whiplash+8.5"
+    },
+    {
+      "id": 52,
+      "titulo": "Gran Torino",
+      "titulo_original": "Gran Torino",
+      "ano_lanzamiento": 2008,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Un veterano de la Guerra de Corea, con prejuicios, forja una amistad improbable con su vecino adolescente de origen Hmong.",
+      "url_caratula": "https://placehold.co/200x300/94a3b8/ffffff?text=Gran+Torino+8.2"
+    },
+    {
+      "id": 54,
+      "titulo": "Malditos bastardos",
+      "titulo_original": "Inglourious Basterds",
+      "ano_lanzamiento": 2009,
+      "generos": [
+        "Aventura",
+        "Drama",
+        "Guerra"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "En la Francia ocupada por los nazis, un grupo de soldados judíos-estadounidenses es enviado a castigar al enemigo.",
+      "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Basterds+8.3"
+    },
+    {
+      "id": 56,
+      "titulo": "Oldboy",
+      "titulo_original": "Oldeuboi",
+      "ano_lanzamiento": 2003,
+      "generos": [
+        "Acción",
+        "Drama",
+        "Misterio"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Tras ser encarcelado por 15 años sin explicación, un hombre es liberado y tiene 5 días para encontrar a su secuestrador.",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Oldboy+8.4"
+    },
+    {
+      "id": 58,
+      "titulo": "Toy Story",
+      "titulo_original": "Toy Story",
+      "ano_lanzamiento": 1995,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "Un vaquero de juguete se siente amenazado y celoso cuando un nuevo y moderno juguete espacial se convierte en el favorito de su dueño.",
+      "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Toy+Story+8.3"
+    },
+    {
+      "id": 60,
+      "titulo": "Eternal Sunshine of the Spotless Mind",
+      "titulo_original": "Eternal Sunshine of the Spotless Mind",
+      "ano_lanzamiento": 2004,
+      "generos": [
+        "Drama",
+        "Ciencia Ficción",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "Una pareja que se somete a un procedimiento para borrarse mutuamente de sus recuerdos descubre lo profundo que es su amor.",
+      "url_caratula": "https://placehold.co/200x300/a78bfa/000000?text=Eternal+Sunshine+8.3"
+    },
+    {
+      "id": 62,
+      "titulo": "Aliens",
+      "titulo_original": "Aliens",
+      "ano_lanzamiento": 1986,
+      "generos": [
+        "Acción",
+        "Ciencia Ficción",
+        "Terror"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "La única superviviente de una nave atacada por un alienígena despierta 57 años después para luchar contra una colmena de criaturas.",
+      "url_caratula": "https://placehold.co/200x300/101010/ffffff?text=Aliens+8.3"
+    },
+    {
+      "id": 64,
+      "titulo": "El laberinto del fauno",
+      "titulo_original": "El laberinto del fauno",
+      "ano_lanzamiento": 2006,
+      "generos": [
+        "Drama",
+        "Fantasía",
+        "Guerra"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "En la España de 1944, una niña se evade a un mundo de fantasía lleno de criaturas mágicas, mientras su padrastro fascista lucha contra los rebeldes.",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Pan's+Labyrinth+8.2"
+    },
+    {
+      "id": 66,
+      "titulo": "Reservoir Dogs",
+      "titulo_original": "Reservoir Dogs",
+      "ano_lanzamiento": 1992,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "Tras un robo de diamantes fallido, los criminales supervivientes sospechan que hay un soplón entre ellos.",
+      "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=Reservoir+Dogs+8.3"
+    },
+    {
+      "id": 68,
+      "titulo": "La vida de Brian",
+      "titulo_original": "Life of Brian",
+      "ano_lanzamiento": 1979,
+      "generos": [
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.0,
+      "resumen": "Brian nace el mismo día y al lado de Jesús y es confundido con el Mesías por sus seguidores.",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Life+of+Brian+8.0"
+    },
+    {
+      "id": 70,
+      "titulo": "Donnie Darko",
+      "titulo_original": "Donnie Darko",
+      "ano_lanzamiento": 2001,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.0,
+      "resumen": "Un adolescente con problemas escapa por poco de un accidente y tiene visiones de un conejo macabro que lo manipula para cometer crímenes.",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Donnie+Darko+8.0"
+    },
+    {
+      "id": 72,
+      "titulo": "El Secreto de sus Ojos",
+      "titulo_original": "El Secreto de sus Ojos",
+      "ano_lanzamiento": 2009,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Un antiguo empleado judicial intenta escribir una novela sobre un caso de asesinato sin resolver del pasado, reviviendo recuerdos.",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=El+Secreto+8.2"
+    },
+    {
+      "id": 74,
+      "titulo": "Apocalypse Now",
+      "titulo_original": "Apocalypse Now",
+      "ano_lanzamiento": 1979,
+      "generos": [
+        "Drama",
+        "Guerra"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Un capitán del ejército es enviado a asesinar a un coronel renegado que se ha vuelto loco durante la Guerra de Vietnam.",
+      "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Apocalypse+Now+8.4"
+    },
+    {
+      "id": 76,
+      "titulo": "El Resplandor",
+      "titulo_original": "The Shining",
+      "ano_lanzamiento": 1980,
+      "generos": [
+        "Drama",
+        "Terror"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Un hombre acepta el puesto de vigilante de invierno en un hotel aislado, donde comienza a descender a la locura debido a influencias sobrenaturales.",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=The+Shining+8.4"
+    },
+    {
+      "id": 78,
+      "titulo": "Spider-Man: Un nuevo universo",
+      "titulo_original": "Spider-Man: Into the Spider-Verse",
+      "ano_lanzamiento": 2018,
+      "generos": [
+        "Animación",
+        "Acción",
+        "Aventura"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "El adolescente Miles Morales se convierte en Spider-Man y une fuerzas con otras versiones de Spider-Man de diferentes universos.",
+      "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Spider-Verse+8.4"
+    },
+    {
+      "id": 80,
+      "titulo": "Parásitos",
+      "titulo_original": "Gisaengchung",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Comedia",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "La codicia y la discriminación de clases amenazan la relación simbiótica recién formada entre dos familias.",
+      "url_caratula": "https://placehold.co/200x300/000000/ffffff?text=Parasite+8.5"
+    },
+    {
+      "id": 82,
+      "titulo": "El Renacido",
+      "titulo_original": "The Revenant",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Aventura",
+        "Drama",
+        "Western"
+      ],
+      "calificacion_imdb": 8.0,
+      "resumen": "Un trampero es atacado por un oso y abandonado por sus compañeros, luchando por la supervivencia y la venganza.",
+      "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=The+Revenant+8.0"
+    },
+    {
+      "id": 84,
+      "titulo": "E.T., el extraterrestre",
+      "titulo_original": "E.T. the Extra-Terrestrial",
+      "ano_lanzamiento": 1982,
+      "generos": [
+        "Ciencia Ficción",
+        "Familiar"
+      ],
+      "calificacion_imdb": 7.9,
+      "resumen": "Un joven llamado Elliott se hace amigo de un extraterrestre abandonado, y debe ayudarlo a escapar de la Tierra.",
+      "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=E.T.+7.9"
+    },
+    {
+      "id": 86,
+      "titulo": "Wall-E",
+      "titulo_original": "WALL·E",
+      "ano_lanzamiento": 2008,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Familiar"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Un robot de limpieza se enamora de un robot explorador y la sigue al espacio, sin saber que tiene la clave para el futuro de la humanidad.",
+      "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Wall-E+8.4"
+    },
+    {
+      "id": 88,
+      "titulo": "La princesa Mononoke",
+      "titulo_original": "Mononoke-hime",
+      "ano_lanzamiento": 1997,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Un príncipe se involucra en una guerra entre dioses del bosque y los humanos que consumen sus recursos.",
+      "url_caratula": "https://placehold.co/200x300/065f46/ffffff?text=Mononoke+8.4"
+    },
+    {
+      "id": 90,
+      "titulo": "El Castillo Ambulante",
+      "titulo_original": "Hauru no ugoku shiro",
+      "ano_lanzamiento": 2004,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Una joven es maldecida por una bruja con un cuerpo anciano y busca la ayuda de un mago que vive en un castillo ambulante.",
+      "url_caratula": "https://placehold.co/200x300/9333ea/ffffff?text=Howl's+Castle+8.2"
+    },
+    {
+      "id": 92,
+      "titulo": "El Sexto Sentido",
+      "titulo_original": "The Sixth Sense",
+      "ano_lanzamiento": 1999,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Un psicólogo infantil comienza a tratar a un niño que dice ver personas muertas.",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Sixth+Sense+8.2"
+    },
+    {
+      "id": 94,
+      "titulo": "Up",
+      "titulo_original": "Up",
+      "ano_lanzamiento": 2009,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "Un anciano viudo ata miles de globos a su casa para cumplir la promesa que hizo a su difunta esposa: viajar a América del Sur.",
+      "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Up+8.3"
+    },
+    {
+      "id": 96,
+      "titulo": "El gran Lebowski",
+      "titulo_original": "The Big Lebowski",
+      "ano_lanzamiento": 1998,
+      "generos": [
+        "Comedia",
+        "Crimen"
+      ],
+      "calificacion_imdb": 8.1,
+      "resumen": "Un holgazán de Los Ángeles es confundido con un millonario y reclutado para una misión de rescate.",
+      "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Lebowski+8.1"
+    },
+    {
+      "id": 98,
+      "titulo": "Alien, el octavo pasajero",
+      "titulo_original": "Alien",
+      "ano_lanzamiento": 1979,
+      "generos": [
+        "Ciencia Ficción",
+        "Terror"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "La tripulación de una nave espacial comercial investiga una señal de socorro en un planeta desierto, donde se encuentran con una forma de vida hostil.",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Alien+8.5"
+    },
+    {
+      "id": 100,
+      "titulo": "El Indomable Will Hunting",
+      "titulo_original": "Good Will Hunting",
+      "ano_lanzamiento": 1997,
+      "generos": [
+        "Drama",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "Will Hunting, un genio no reconocido, debe reevaluar su vida después de que un profesor le ofrezca ayuda psicológica.",
+      "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=Will+Hunting+8.3"
+    },
+    {
+      "id": 101,
+      "titulo": "Atrápame si puedes",
+      "titulo_original": "Catch Me If You Can",
+      "ano_lanzamiento": 2002,
+      "generos": [
+        "Biografía",
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.1,
+      "resumen": "Frank Abagnale Jr. trabaja como médico, abogado y copiloto antes de cumplir 21 años. Un agente del FBI le sigue la pista.",
+      "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Catch+Me+If+You+Can+8.1"
+    },
+    {
+      "id": 102,
+      "titulo": "El show de Truman",
+      "titulo_original": "The Truman Show",
+      "ano_lanzamiento": 1998,
+      "generos": [
+        "Comedia",
+        "Drama",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Un hombre descubre que toda su vida ha sido un reality show transmitido globalmente.",
+      "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=Truman+Show+8.2"
+    },
+    {
+      "id": 103,
+      "titulo": "El viaje de Chihiro",
+      "titulo_original": "Sen to Chihiro no kamikakushi",
+      "ano_lanzamiento": 2001,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Familiar"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Una niña se encuentra atrapada en un mundo de espíritus, donde trabaja para liberar a sus padres, que han sido convertidos en cerdos.",
+      "url_caratula": "https://placehold.co/200x300/9333ea/ffffff?text=Spirited+Away+8.6"
+    },
+    {
+      "id": 104,
+      "titulo": "El club de los poetas muertos",
+      "titulo_original": "Dead Poets Society",
+      "ano_lanzamiento": 1989,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.1,
+      "resumen": "Un profesor de inglés no convencional inspira a sus alumnos a 'aprovechar el día'.",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Dead+Poets+8.1"
+    },
+    {
+      "id": 105,
+      "titulo": "El silencio de los corderos",
+      "titulo_original": "The Silence of the Lambs",
+      "ano_lanzamiento": 1991,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Una joven agente del FBI debe consultar a un asesino en serie caníbal para ayudar a capturar a otro asesino.",
+      "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=Silence+of+the+Lambs+8.6"
+    },
+    {
+      "id": 106,
+      "titulo": "Donnie Brasco",
+      "titulo_original": "Donnie Brasco",
+      "ano_lanzamiento": 1997,
+      "generos": [
+        "Biografía",
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 7.7,
+      "resumen": "Un agente del FBI se infiltra en la mafia de Nueva York y se hace amigo de un sicario que lo introduce en el mundo criminal.",
+      "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Donnie+Brasco+7.7"
+    },
+    {
+      "id": 107,
+      "titulo": "Trainspotting",
+      "titulo_original": "Trainspotting",
+      "ano_lanzamiento": 1996,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 8.1,
+      "resumen": "La vida de un adicto a la heroína en Edimburgo y sus amigos mientras intentan (y fracasan) dejar las drogas.",
+      "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Trainspotting+8.1"
+    },
+    {
+      "id": 108,
+      "titulo": "El lobo de Wall Street",
+      "titulo_original": "The Wolf of Wall Street",
+      "ano_lanzamiento": 2013,
+      "generos": [
+        "Biografía",
+        "Crimen",
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "La verdadera historia de Jordan Belfort, desde el sueño americano hasta la codicia corporativa.",
+      "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=Wolf+of+Wall+Street+8.2"
+    },
+    {
+      "id": 109,
+      "titulo": "Bastardos sin gloria",
+      "titulo_original": "Inglourious Basterds",
+      "ano_lanzamiento": 2009,
+      "generos": [
+        "Aventura",
+        "Drama",
+        "Guerra"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "Durante la Segunda Guerra Mundial, un grupo de soldados judíos-estadounidenses es enviado detrás de las líneas enemigas.",
+      "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Inglourious+Basterds+8.3"
+    },
+    {
+      "id": 110,
+      "titulo": "Regreso al futuro",
+      "titulo_original": "Back to the Future",
+      "ano_lanzamiento": 1985,
+      "generos": [
+        "Aventura",
+        "Comedia",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Un adolescente es enviado accidentalmente 30 años atrás en el tiempo en un DeLorean modificado.",
+      "url_caratula": "https://placehold.co/200x300/6d28d9/ffffff?text=Back+to+the+Future+8.5"
+    }
+  ],
+  "series": [
+    {
+      "id": 4,
+      "titulo": "Breaking Bad",
+      "titulo_original": "Breaking Bad",
+      "ano_lanzamiento": 2008,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 9.5,
+      "resumen": "Un profesor de química de instituto con cáncer terminal se asocia con un antiguo alumno para fabricar y vender metanfetamina con el fin de asegurar el futuro financiero de su familia.",
+      "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Breaking+Bad+9.5"
+    },
+    {
+      "id": 6,
+      "titulo": "Juego de Tronos",
+      "titulo_original": "Game of Thrones",
+      "ano_lanzamiento": 2011,
+      "generos": [
+        "Aventura",
+        "Drama",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 9.2,
+      "resumen": "Nueve familias nobles luchan por el control de las tierras míticas de Poniente, mientras una antigua amenaza regresa más allá del Muro.",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Game+of+Thrones+9.2"
+    },
+    {
+      "id": 8,
+      "titulo": "Chernobyl",
+      "titulo_original": "Chernobyl",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Drama",
+        "Historia",
+        "Thriller"
+      ],
+      "calificacion_imdb": 9.3,
+      "resumen": "La historia real del desastre nuclear de 1986 en Ucrania, revelando cómo y por qué ocurrió, y los sacrificios de las personas para salvar a Europa de un desastre inimaginable.",
+      "url_caratula": "https://placehold.co/200x300/3f3f46/ffffff?text=Chernobyl+9.3"
+    },
+    {
+      "id": 10,
+      "titulo": "The Wire",
+      "titulo_original": "The Wire",
+      "ano_lanzamiento": 2002,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 9.3,
+      "resumen": "La interacción entre los traficantes de drogas y las fuerzas del orden en Baltimore, vista a través de los ojos de policías y criminales.",
+      "url_caratula": "https://placehold.co/200x300/4c4c4c/ffffff?text=The+Wire+9.3"
+    },
+    {
+      "id": 12,
+      "titulo": "The Sopranos",
+      "titulo_original": "The Sopranos",
+      "ano_lanzamiento": 1999,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 9.2,
+      "resumen": "El jefe de la mafia de Nueva Jersey, Tony Soprano, lucha por equilibrar su vida familiar con su carrera criminal.",
+      "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=Sopranos+9.2"
+    },
+    {
+      "id": 14,
+      "titulo": "Avatar: La Leyenda de Aang",
+      "titulo_original": "Avatar: The Last Airbender",
+      "ano_lanzamiento": 2005,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 9.3,
+      "resumen": "El joven Aang, el Avatar, debe dominar los cuatro elementos para detener a la Nación del Fuego y restaurar el equilibrio en el mundo.",
+      "url_caratula": "https://placehold.co/200x300/06b6d4/ffffff?text=Avatar+Aang+9.3"
+    },
+    {
+      "id": 16,
+      "titulo": "Friends",
+      "titulo_original": "Friends",
+      "ano_lanzamiento": 1994,
+      "generos": [
+        "Comedia",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "Sigue las vidas de seis amigos veinteañeros mientras navegan por el amor, el trabajo y la vida en Manhattan.",
+      "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Friends+8.9"
+    },
+    {
+      "id": 18,
+      "titulo": "Rick y Morty",
+      "titulo_original": "Rick and Morty",
+      "ano_lanzamiento": 2013,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "calificacion_imdb": 9.1,
+      "resumen": "Las aventuras de un científico genio y sociópata y su nieto, menos brillante, a través del espacio y el tiempo.",
+      "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Rick+%26+Morty+9.1"
+    },
+    {
+      "id": 20,
+      "titulo": "Arcane",
+      "titulo_original": "Arcane",
+      "ano_lanzamiento": 2021,
+      "generos": [
+        "Animación",
+        "Acción",
+        "Aventura"
+      ],
+      "calificacion_imdb": 9.0,
+      "resumen": "En la utópica Piltover y la opresiva Zaun, dos hermanas luchan en bandos opuestos de una guerra entre tecnologías mágicas y convicciones rotas.",
+      "url_caratula": "https://placehold.co/200x300/f87171/ffffff?text=Arcane+9.0"
+    },
+    {
+      "id": 23,
+      "titulo": "Planet Earth II",
+      "titulo_original": "Planet Earth II",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Documental"
+      ],
+      "calificacion_imdb": 9.5,
+      "resumen": "Una visión del mundo natural a través de diferentes hábitats: islas, montañas, selvas, desiertos y ciudades.",
+      "url_caratula": "https://placehold.co/200x300/0c4a6e/ffffff?text=Planet+Earth+II+9.5"
+    },
+    {
+      "id": 25,
+      "titulo": "Cosmos",
+      "titulo_original": "Cosmos: A Spacetime Odyssey",
+      "ano_lanzamiento": 2014,
+      "generos": [
+        "Documental",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 9.3,
+      "resumen": "Neil deGrasse Tyson presenta una serie documental que explora el universo y las leyes de la naturaleza.",
+      "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=Cosmos+9.3"
+    },
+    {
+      "id": 27,
+      "titulo": "Fargo",
+      "titulo_original": "Fargo",
+      "ano_lanzamiento": 2014,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "Una serie de crímenes se conecta con personajes que tratan de evitar la ley o de imponerla.",
+      "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Fargo+8.9"
+    },
+    {
+      "id": 29,
+      "titulo": "Band of Brothers",
+      "titulo_original": "Band of Brothers",
+      "ano_lanzamiento": 2001,
+      "generos": [
+        "Drama",
+        "Historia",
+        "Guerra"
+      ],
+      "calificacion_imdb": 9.4,
+      "resumen": "La historia de la Easy Company, del 506.º Regimiento de Infantería de Paracaidistas de la 101.ª División Aerotransportada del Ejército de los Estados Unidos.",
+      "url_caratula": "https://placehold.co/200x300/6b7280/ffffff?text=Band+of+Brothers+9.4"
+    },
+    {
+      "id": 31,
+      "titulo": "True Detective",
+      "titulo_original": "True Detective",
+      "ano_lanzamiento": 2014,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Misterio"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "Detectives investigan crímenes complejos, explorando a la vez sus vidas personales y profesionales.",
+      "url_caratula": "https://placehold.co/200x300/333333/ffffff?text=True+Detective+8.9"
+    },
+    {
+      "id": 33,
+      "titulo": "Peaky Blinders",
+      "titulo_original": "Peaky Blinders",
+      "ano_lanzamiento": 2013,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Un gánster notorio de Birmingham después de la Primera Guerra Mundial, Tommy Shelby, lidera una pandilla ambiciosa y brutal.",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Peaky+Blinders+8.8"
+    },
+    {
+      "id": 35,
+      "titulo": "Sherlock",
+      "titulo_original": "Sherlock",
+      "ano_lanzamiento": 2010,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Misterio"
+      ],
+      "calificacion_imdb": 9.1,
+      "resumen": "El famoso detective Sherlock Holmes y su compañero Dr. Watson resuelven misterios en el Londres del siglo XXI.",
+      "url_caratula": "https://placehold.co/200x300/155e75/ffffff?text=Sherlock+9.1"
+    },
+    {
+      "id": 37,
+      "titulo": "Black Mirror",
+      "titulo_original": "Black Mirror",
+      "ano_lanzamiento": 2011,
+      "generos": [
+        "Drama",
+        "Ciencia Ficción",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Una antología que explora un futuro cercano tecnológicamente avanzado donde los instintos más oscuros de la humanidad chocan con las innovaciones.",
+      "url_caratula": "https://placehold.co/200x300/000000/ffffff?text=Black+Mirror+8.8"
+    },
+    {
+      "id": 39,
+      "titulo": "Stranger Things",
+      "titulo_original": "Stranger Things",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Drama",
+        "Fantasía",
+        "Terror"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Tras la desaparición de un niño en una pequeña ciudad, una niña con poderes psicocinéticos aparece, desvelando misterios sobrenaturales.",
+      "url_caratula": "https://placehold.co/200x300/be123c/ffffff?text=Stranger+Things+8.7"
+    },
+    {
+      "id": 41,
+      "titulo": "Better Call Saul",
+      "titulo_original": "Better Call Saul",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "Precuela de 'Breaking Bad' que sigue la transformación del abogado Jimmy McGill en el turbio Saul Goodman.",
+      "url_caratula": "https://placehold.co/200x300/f59e0b/ffffff?text=Better+Call+Saul+8.9"
+    },
+    {
+      "id": 43,
+      "titulo": "Arrested Development",
+      "titulo_original": "Arrested Development",
+      "ano_lanzamiento": 2003,
+      "generos": [
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "El hijo, Michael Bluth, se ve obligado a hacerse cargo de los asuntos familiares después de que su padre sea encarcelado por fraude.",
+      "url_caratula": "https://placehold.co/200x300/7e22ce/ffffff?text=Arrested+Development+8.7"
+    },
+    {
+      "id": 45,
+      "titulo": "Fleabag",
+      "titulo_original": "Fleabag",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Una joven sarcástica navega por la vida moderna en Londres mientras lidia con el dolor y la culpa.",
+      "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Fleabag+8.7"
+    },
+    {
+      "id": 47,
+      "titulo": "Rick and Morty: The Animated Series",
+      "titulo_original": "Rick and Morty: The Animated Series",
+      "ano_lanzamiento": 2013,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "calificacion_imdb": 9.1,
+      "resumen": "Las aventuras de un científico genio y sociópata y su nieto, menos brillante, a través del espacio y el tiempo.",
+      "url_caratula": "https://placehold.co/200x300/34d399/000000?text=R%26M+Animated+9.1"
+    },
+    {
+      "id": 49,
+      "titulo": "Mindhunter",
+      "titulo_original": "Mindhunter",
+      "ano_lanzamiento": 2017,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Dos agentes del FBI amplían la ciencia criminal investigando la psicología de los asesinos en serie.",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Mindhunter+8.6"
+    },
+    {
+      "id": 51,
+      "titulo": "Padre de familia",
+      "titulo_original": "Family Guy",
+      "ano_lanzamiento": 1999,
+      "generos": [
+        "Animación",
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Las aventuras de la familia Griffin, una familia disfuncional con un bebé malvado y un perro que habla.",
+      "url_caratula": "https://placehold.co/200x300/eab308/000000?text=Family+Guy+8.2"
+    },
+    {
+      "id": 53,
+      "titulo": "Ozark",
+      "titulo_original": "Ozark",
+      "ano_lanzamiento": 2017,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Un asesor financiero arrastra a su familia desde Chicago a los Ozarks, donde debe lavar 500 millones de dólares en cinco años para apaciguar a un capo de la droga.",
+      "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Ozark+8.5"
+    },
+    {
+      "id": 55,
+      "titulo": "Dark",
+      "titulo_original": "Dark",
+      "ano_lanzamiento": 2017,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Misterio",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Cuatro familias de un pueblo alemán comienzan a buscar desesperadamente a dos niños desaparecidos, desenterrando secretos que abarcan tres generaciones.",
+      "url_caratula": "https://placehold.co/200x300/171717/ffffff?text=Dark+8.7"
+    },
+    {
+      "id": 57,
+      "titulo": "The Crown",
+      "titulo_original": "The Crown",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Biografía",
+        "Drama",
+        "Historia"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Sigue las rivalidades políticas y los romances durante el reinado de la reina Isabel II, así como los eventos que dieron forma a la segunda mitad del siglo XX.",
+      "url_caratula": "https://placehold.co/200x300/94a3b8/000000?text=The+Crown+8.6"
+    },
+    {
+      "id": 59,
+      "titulo": "The Mandalorian",
+      "titulo_original": "The Mandalorian",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Acción",
+        "Aventura",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Las aventuras de un pistolero solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Mandalorian+8.7"
+    },
+    {
+      "id": 61,
+      "titulo": "Succession",
+      "titulo_original": "Succession",
+      "ano_lanzamiento": 2018,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Sigue a la familia Roy, dueña de un imperio de medios de comunicación y entretenimiento, mientras luchan por el control de la compañía.",
+      "url_caratula": "https://placehold.co/200x300/4c4c4c/ffffff?text=Succession+8.8"
+    },
+    {
+      "id": 63,
+      "titulo": "Line of Duty",
+      "titulo_original": "Line of Duty",
+      "ano_lanzamiento": 2012,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Misterio"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Una unidad anticorrupción investiga a policías sospechosos de mala conducta o crímenes.",
+      "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Line+of+Duty+8.7"
+    },
+    {
+      "id": 65,
+      "titulo": "Attack on Titan",
+      "titulo_original": "Shingeki no Kyojin",
+      "ano_lanzamiento": 2013,
+      "generos": [
+        "Animación",
+        "Acción",
+        "Aventura"
+      ],
+      "calificacion_imdb": 9.1,
+      "resumen": "La humanidad vive en ciudades protegidas por enormes murallas contra gigantes humanoides devoradores de hombres llamados Titanes.",
+      "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=AoT+9.1"
+    },
+    {
+      "id": 67,
+      "titulo": "Freaks and Geeks",
+      "titulo_original": "Freaks and Geeks",
+      "ano_lanzamiento": 1999,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Sigue las vidas de dos grupos de estudiantes de secundaria, los 'freaks' (rebeldes) y los 'geeks' (nerds), en 1980.",
+      "url_caratula": "https://placehold.co/200x300/facc15/000000?text=Freaks+%26+Geeks+8.8"
+    },
+    {
+      "id": 69,
+      "titulo": "The Good Place",
+      "titulo_original": "The Good Place",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Comedia",
+        "Drama",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Una mujer que ha muerto es enviada por error a un cielo utópico y debe ocultar su pasado moralmente ambiguo.",
+      "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=Good+Place+8.2"
+    },
+    {
+      "id": 71,
+      "titulo": "Ted Lasso",
+      "titulo_original": "Ted Lasso",
+      "ano_lanzamiento": 2020,
+      "generos": [
+        "Comedia",
+        "Deportes"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Un entrenador de fútbol americano es contratado para dirigir un equipo de fútbol profesional en Inglaterra, a pesar de no tener experiencia.",
+      "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Ted+Lasso+8.8"
+    },
+    {
+      "id": 73,
+      "titulo": "House of Cards",
+      "titulo_original": "House of Cards",
+      "ano_lanzamiento": 2013,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Un ambicioso congresista y su esposa están dispuestos a llegar a cualquier extremo para asegurar el poder en Washington D.C.",
+      "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=House+of+Cards+8.7"
+    },
+    {
+      "id": 75,
+      "titulo": "BoJack Horseman",
+      "titulo_original": "BoJack Horseman",
+      "ano_lanzamiento": 2014,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Un caballo que fue una estrella de una comedia de situación de los 90 intenta recuperar la fama mientras lidia con el alcoholismo y la depresión.",
+      "url_caratula": "https://placehold.co/200x300/7c3aed/ffffff?text=BoJack+8.8"
+    },
+    {
+      "id": 77,
+      "titulo": "Mr. Robot",
+      "titulo_original": "Mr. Robot",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Un programador de computadoras con ansiedad social trabaja como ingeniero de ciberseguridad y se une a un grupo de hackers anarquistas.",
+      "url_caratula": "https://placehold.co/200x300/18181b/ffffff?text=Mr+Robot+8.6"
+    },
+    {
+      "id": 79,
+      "titulo": "Westworld",
+      "titulo_original": "Westworld",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Un parque temático de vaqueros del Viejo Oeste poblado por androides 'anfitriones' comienza a experimentar fallas de comportamiento.",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Westworld+8.5"
+    },
+    {
+      "id": 81,
+      "titulo": "El Juego del Calamar",
+      "titulo_original": "Squid Game",
+      "ano_lanzamiento": 2021,
+      "generos": [
+        "Acción",
+        "Drama",
+        "Misterio"
+      ],
+      "calificacion_imdb": 8.0,
+      "resumen": "Cientos de jugadores con problemas de dinero aceptan una extraña invitación para competir en juegos infantiles.",
+      "url_caratula": "https://placehold.co/200x300/b91c1c/ffffff?text=Squid+Game+8.0"
+    },
+    {
+      "id": 83,
+      "titulo": "Twin Peaks",
+      "titulo_original": "Twin Peaks",
+      "ano_lanzamiento": 1990,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "Un agente del FBI investiga el asesinato de la reina de la escuela secundaria, Laura Palmer, en una pequeña ciudad.",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Twin+Peaks+8.8"
+    },
+    {
+      "id": 85,
+      "titulo": "The Queen's Gambit",
+      "titulo_original": "The Queen's Gambit",
+      "ano_lanzamiento": 2020,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Sigue la vida de una huérfana prodigio del ajedrez en su camino hacia la cima del mundo ajedrecístico.",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Queen's+Gambit+8.6"
+    },
+    {
+      "id": 87,
+      "titulo": "Monty Python's Flying Circus",
+      "titulo_original": "Monty Python's Flying Circus",
+      "ano_lanzamiento": 1969,
+      "generos": [
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "La revolucionaria serie de comedia sketch de la troupe británica Monty Python.",
+      "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Monty+Python+8.8"
+    },
+    {
+      "id": 89,
+      "titulo": "Mad Men",
+      "titulo_original": "Mad Men",
+      "ano_lanzamiento": 2007,
+      "generos": [
+        "Drama"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Las vidas de hombres y mujeres de una agencia de publicidad de Nueva York en la década de 1960.",
+      "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Mad+Men+8.7"
+    },
+    {
+      "id": 91,
+      "titulo": "Seinfeld",
+      "titulo_original": "Seinfeld",
+      "ano_lanzamiento": 1989,
+      "generos": [
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "Sigue la vida de un comediante de stand-up y sus tres amigos en la ciudad de Nueva York.",
+      "url_caratula": "https://placehold.co/200x300/f97316/ffffff?text=Seinfeld+8.9"
+    },
+    {
+      "id": 93,
+      "titulo": "Carnival Row",
+      "titulo_original": "Carnival Row",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Fantasía",
+        "Misterio",
+        "Drama"
+      ],
+      "calificacion_imdb": 7.8,
+      "resumen": "Criaturas míticas que han huido de sus tierras devastadas por la guerra se reagrupan en una ciudad neo-victoriana, donde crece la tensión.",
+      "url_caratula": "https://placehold.co/200x300/713f12/ffffff?text=Carnival+Row+7.8"
+    },
+    {
+      "id": 95,
+      "titulo": "Atlanta",
+      "titulo_original": "Atlanta",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Comedia",
+        "Drama",
+        "Música"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Dos primos se abren camino en el panorama musical de Atlanta, con el objetivo de mejorar sus vidas y las de sus familias.",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Atlanta+8.6"
+    },
+    {
+      "id": 97,
+      "titulo": "The Office (US)",
+      "titulo_original": "The Office (US)",
+      "ano_lanzamiento": 2005,
+      "generos": [
+        "Comedia"
+      ],
+      "calificacion_imdb": 9.0,
+      "resumen": "Un falso documental que narra las vidas cotidianas de los empleados de una empresa de papel.",
+      "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=The+Office+9.0"
+    },
+    {
+      "id": 99,
+      "titulo": "Community",
+      "titulo_original": "Community",
+      "ano_lanzamiento": 2009,
+      "generos": [
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Un abogado deshabilitado es obligado a volver a la universidad comunitaria, donde forma un grupo de estudio con un grupo de inadaptados.",
+      "url_caratula": "https://placehold.co/200x300/fbbf24/000000?text=Community+8.5"
+    },
+    {
+      "id": 111,
+      "titulo": "The Haunting of Hill House",
+      "titulo_original": "The Haunting of Hill House",
+      "ano_lanzamiento": 2018,
+      "generos": [
+        "Drama",
+        "Terror",
+        "Misterio"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Una familia dispersa debe enfrentarse a los aterradores recuerdos de su antiguo hogar y los eventos que los obligaron a abandonarlo.",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Hill+House+8.6"
+    },
+    {
+      "id": 112,
+      "titulo": "The Expanse",
+      "titulo_original": "The Expanse",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "En un futuro donde la humanidad ha colonizado el sistema solar, un detective y un capitán de nave se unen para desentrañar una gran conspiración.",
+      "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=The+Expanse+8.5"
+    },
+    {
+      "id": 113,
+      "titulo": "One-Punch Man",
+      "titulo_original": "One-Punch Man",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Animación",
+        "Acción",
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Saitama, un héroe que puede derrotar a cualquier enemigo con un solo golpe, se enfrenta al aburrimiento y a la falta de reconocimiento.",
+      "url_caratula": "https://placehold.co/200x300/f87171/ffffff?text=One-Punch+Man+8.7"
+    },
+    {
+      "id": 114,
+      "titulo": "Daredevil",
+      "titulo_original": "Daredevil",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Acción",
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Ciego desde niño, Matt Murdock lucha contra la injusticia de día como abogado y de noche como el superhéroe Daredevil.",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Daredevil+8.6"
+    },
+    {
+      "id": 115,
+      "titulo": "Outlander",
+      "titulo_original": "Outlander",
+      "ano_lanzamiento": 2014,
+      "generos": [
+        "Drama",
+        "Fantasía",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Una enfermera de combate de 1945 es misteriosamente transportada a 1743 en Escocia.",
+      "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Outlander+8.4"
+    },
+    {
+      "id": 116,
+      "titulo": "Sense8",
+      "titulo_original": "Sense8",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Ocho extraños de diferentes partes del mundo desarrollan una conexión telepática y deben unirse para sobrevivir a un grupo que los persigue.",
+      "url_caratula": "https://placehold.co/200x300/94a3b8/ffffff?text=Sense8+8.2"
+    },
+    {
+      "id": 117,
+      "titulo": "Homeland",
+      "titulo_original": "Homeland",
+      "ano_lanzamiento": 2011,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "Una agente de la CIA cree que un sargento de la Marina liberado, que estuvo cautivo de Al-Qaeda, puede ser un agente durmiente.",
+      "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Homeland+8.3"
+    },
+    {
+      "id": 118,
+      "titulo": "Doctor Who",
+      "titulo_original": "Doctor Who",
+      "ano_lanzamiento": 2005,
+      "generos": [
+        "Aventura",
+        "Drama",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Un excéntrico 'Señor del Tiempo' viaja por el espacio y el tiempo en su máquina TARDIS, combatiendo el mal.",
+      "url_caratula": "https://placehold.co/200x300/06b6d4/ffffff?text=Doctor+Who+8.6"
+    },
+    {
+      "id": 119,
+      "titulo": "Westworld: Season 1",
+      "titulo_original": "Westworld: Season 1",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "El despertar de la conciencia de los anfitriones en un parque temático futurista.",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Westworld+S1+8.5"
+    },
+    {
+      "id": 120,
+      "titulo": "Narcos",
+      "titulo_original": "Narcos",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Biografía",
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.8,
+      "resumen": "La vida del narcotraficante Pablo Escobar, jefe del cartel de Medellín, y los agentes del DEA que intentan detenerlo.",
+      "url_caratula": "https://placehold.co/200x300/7c2d12/ffffff?text=Narcos+8.8"
+    },
+    {
+      "id": 121,
+      "titulo": "The Handmaid's Tale",
+      "titulo_original": "The Handmaid's Tale",
+      "ano_lanzamiento": 2017,
+      "generos": [
+        "Drama",
+        "Ciencia Ficción",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "En una sociedad distópica, una mujer se ve obligada a vivir como concubina bajo una dictadura fundamentalista.",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Handmaid's+Tale+8.4"
+    },
+    {
+      "id": 122,
+      "titulo": "Kingdom",
+      "titulo_original": "Kingdom",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Acción",
+        "Drama",
+        "Terror"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Un príncipe heredero lucha contra una misteriosa plaga de zombis que se propaga en Corea durante la Dinastía Joseon.",
+      "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Kingdom+8.4"
+    },
+    {
+      "id": 123,
+      "titulo": "Dark: Season 1",
+      "titulo_original": "Dark: Season 1",
+      "ano_lanzamiento": 2017,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Misterio",
+        "Ciencia Ficción"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "La desaparición de un niño expone secretos y lazos que conectan cuatro familias a lo largo de tres generaciones.",
+      "url_caratula": "https://placehold.co/200x300/171717/ffffff?text=Dark+S1+8.7"
+    },
+    {
+      "id": 124,
+      "titulo": "Brooklyn Nine-Nine",
+      "titulo_original": "Brooklyn Nine-Nine",
+      "ano_lanzamiento": 2013,
+      "generos": [
+        "Comedia",
+        "Crimen"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Las payasadas de un equipo de detectives inmaduros pero capaces en el distrito 99 de Brooklyn.",
+      "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Brooklyn+99+8.4"
+    },
+    {
+      "id": 125,
+      "titulo": "Mindhunter: Season 1",
+      "titulo_original": "Mindhunter: Season 1",
+      "ano_lanzamiento": 2017,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.6,
+      "resumen": "Los inicios del FBI en el estudio de la mente de los asesinos en serie.",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Mindhunter+S1+8.6"
+    },
+    {
+      "id": 126,
+      "titulo": "The Boys",
+      "titulo_original": "The Boys",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Acción",
+        "Comedia",
+        "Crimen"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Un grupo de vigilantes se propone derribar a superhéroes corruptos con nada más que coraje y voluntad para luchar sucio.",
+      "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=The+Boys+8.7"
+    },
+    {
+      "id": 127,
+      "titulo": "Better Call Saul: Season 1",
+      "titulo_original": "Better Call Saul: Season 1",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "La vida del abogado Jimmy McGill antes de convertirse en Saul Goodman.",
+      "url_caratula": "https://placehold.co/200x300/f59e0b/ffffff?text=BCS+S1+8.9"
+    },
+    {
+      "id": 128,
+      "titulo": "Derry Girls",
+      "titulo_original": "Derry Girls",
+      "ano_lanzamiento": 2018,
+      "generos": [
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.5,
+      "resumen": "Las vidas de un grupo de chicas de secundaria durante los 'Troubles' en Irlanda del Norte.",
+      "url_caratula": "https://placehold.co/200x300/94a3b8/000000?text=Derry+Girls+8.5"
+    },
+    {
+      "id": 129,
+      "titulo": "Sex Education",
+      "titulo_original": "Sex Education",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.3,
+      "resumen": "Un adolescente disfuncional con una madre terapeuta sexual establece una clínica de terapia sexual clandestina en su escuela.",
+      "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Sex+Education+8.3"
+    },
+    {
+      "id": 130,
+      "titulo": "This Is Us",
+      "titulo_original": "This Is Us",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Comedia",
+        "Drama",
+        "Romance"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "Las vidas de los hermanos Pearson a través de varias décadas, a menudo a través de flashbacks.",
+      "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=This+Is+Us+8.7"
+    },
+    {
+      "id": 131,
+      "titulo": "Fleabag: Season 1",
+      "titulo_original": "Fleabag: Season 1",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "La vida de una mujer que busca el amor y la redención en el Londres moderno.",
+      "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Fleabag+S1+8.7"
+    },
+    {
+      "id": 132,
+      "titulo": "The Umbrella Academy",
+      "titulo_original": "The Umbrella Academy",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Acción",
+        "Aventura",
+        "Comedia"
+      ],
+      "calificacion_imdb": 8.0,
+      "resumen": "Hermanos adoptados con superpoderes se reúnen después de la muerte de su padre y descubren un inminente apocalipsis.",
+      "url_caratula": "https://placehold.co/200x300/581c87/ffffff?text=Umbrella+Academy+8.0"
+    },
+    {
+      "id": 133,
+      "titulo": "Fargo: Season 1",
+      "titulo_original": "Fargo: Season 1",
+      "ano_lanzamiento": 2014,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Thriller"
+      ],
+      "calificacion_imdb": 8.9,
+      "resumen": "Una cadena de asesinatos golpea una pequeña ciudad de Minnesota tras la llegada de un asesino a sueldo.",
+      "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Fargo+S1+8.9"
+    },
+    {
+      "id": 134,
+      "titulo": "Lucifer",
+      "titulo_original": "Lucifer",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Crimen",
+        "Drama",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.1,
+      "resumen": "El Diablo abandona el Infierno y se muda a Los Ángeles para abrir un club nocturno y se convierte en consultor del LAPD.",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Lucifer+8.1"
+    },
+    {
+      "id": 135,
+      "titulo": "The Good Place: Season 1",
+      "titulo_original": "The Good Place: Season 1",
+      "ano_lanzamiento": 2016,
+      "generos": [
+        "Comedia",
+        "Drama",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.2,
+      "resumen": "Eleanor Shellstrop llega al Buen Lugar por error y trata de convertirse en una mejor persona.",
+      "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=Good+Place+S1+8.2"
+    },
+    {
+      "id": 136,
+      "titulo": "The Witcher",
+      "titulo_original": "The Witcher",
+      "ano_lanzamiento": 2019,
+      "generos": [
+        "Acción",
+        "Aventura",
+        "Fantasía"
+      ],
+      "calificacion_imdb": 8.1,
+      "resumen": "Geralt de Rivia, un cazador de monstruos solitario, lucha por encontrar su lugar en un mundo donde la gente es más malvada que las bestias.",
+      "url_caratula": "https://placehold.co/200x300/0f766e/ffffff?text=The+Witcher+8.1"
+    },
+    {
+      "id": 137,
+      "titulo": "The Last Kingdom",
+      "titulo_original": "The Last Kingdom",
+      "ano_lanzamiento": 2015,
+      "generos": [
+        "Acción",
+        "Drama",
+        "Historia"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "Mientras Alfredo el Grande defiende su reino de los invasores nórdicos, Uhtred, un sajón criado por vikingos, busca su derecho de nacimiento.",
+      "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Last+Kingdom+8.4"
+    },
+    {
+      "id": 138,
+      "titulo": "House of the Dragon",
+      "titulo_original": "House of the Dragon",
+      "ano_lanzamiento": 2022,
+      "generos": [
+        "Acción",
+        "Aventura",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.4,
+      "resumen": "La historia de la Casa Targaryen, 200 años antes de los eventos de Game of Thrones.",
+      "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=House+of+the+Dragon+8.4"
+    },
+    {
+      "id": 139,
+      "titulo": "Only Murders in the Building",
+      "titulo_original": "Only Murders in the Building",
+      "ano_lanzamiento": 2021,
+      "generos": [
+        "Comedia",
+        "Crimen",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.1,
+      "resumen": "Tres extraños que comparten una obsesión por el true crime se encuentran envueltos en uno propio.",
+      "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Only+Murders+8.1"
+    },
+    {
+      "id": 140,
+      "titulo": "The Marvelous Mrs. Maisel",
+      "titulo_original": "The Marvelous Mrs. Maisel",
+      "ano_lanzamiento": 2017,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "calificacion_imdb": 8.7,
+      "resumen": "En el Nueva York de 1958, la vida de Midge Maisel da un giro inesperado cuando descubre un talento oculto para la comedia stand-up.",
+      "url_caratula": "https://placehold.co/200x300/eab308/000000?text=Mrs+Maisel+8.7"
+    }
+  ],
+  "caratulas": [
+    {
+      "id": 1,
+      "titulo": "Cadena perpetua",
+      "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Shawshank+9.3"
+    },
+    {
+      "id": 2,
+      "titulo": "El Padrino",
+      "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Godfather+9.2"
+    },
+    {
+      "id": 3,
+      "titulo": "El Caballero Oscuro",
+      "url_caratula": "https://placehold.co/200x300/4b5563/ffffff?text=Dark+Knight+9.0"
+    },
+    {
+      "id": 5,
+      "titulo": "Pulp Fiction",
+      "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Pulp+Fiction+8.9"
+    },
+    {
+      "id": 7,
+      "titulo": "El Señor de los Anillos: El Retorno del Rey",
+      "url_caratula": "https://placehold.co/200x300/059669/ffffff?text=LotR+King+8.9"
+    },
+    {
+      "id": 9,
+      "titulo": "La lista de Schindler",
+      "url_caratula": "https://placehold.co/200x300/18181b/ffffff?text=Schindler+9.0"
+    },
+    {
+      "id": 11,
+      "titulo": "Forrest Gump",
+      "url_caratula": "https://placehold.co/200x300/9a3412/ffffff?text=Forrest+Gump+8.8"
+    },
+    {
+      "id": 13,
+      "titulo": "Origen",
+      "url_caratula": "https://placehold.co/200x300/6d28d9/ffffff?text=Inception+8.8"
+    },
+    {
+      "id": 15,
+      "titulo": "Tiempos Modernos",
+      "url_caratula": "https://placehold.co/200x300/71717a/ffffff?text=Modern+Times+8.5"
+    },
+    {
+      "id": 17,
+      "titulo": "Interestelar",
+      "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=Interstellar+8.6"
+    },
+    {
+      "id": 19,
+      "titulo": "¿Qué bello es vivir!",
+      "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Wonderful+Life+8.6"
+    },
+    {
+      "id": 21,
+      "titulo": "El bueno, el feo y el malo",
+      "url_caratula": "https://placehold.co/200x300/44403c/ffffff?text=The+Ugly+8.8"
+    },
+    {
+      "id": 22,
+      "titulo": "12 hombres sin piedad",
+      "url_caratula": "https://placehold.co/200x300/365314/ffffff?text=12+Angry+Men+9.0"
+    },
+    {
+      "id": 24,
+      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "url_caratula": "https://placehold.co/200x300/0f766e/ffffff?text=LotR+Fellowship+8.8"
+    },
+    {
+      "id": 26,
+      "titulo": "Seven: Se7en",
+      "url_caratula": "https://placehold.co/200x300/27272a/ffffff?text=Se7en+8.6"
+    },
+    {
+      "id": 28,
+      "titulo": "El club de la lucha",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Fight+Club+8.8"
+    },
+    {
+      "id": 30,
+      "titulo": "Matrix",
+      "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=The+Matrix+8.7"
+    },
+    {
+      "id": 32,
+      "titulo": "Ciudad de Dios",
+      "url_caratula": "https://placehold.co/200x300/7c2d12/ffffff?text=Ciudad+de+Dios+8.6"
+    },
+    {
+      "id": 34,
+      "titulo": "Salvar al soldado Ryan",
+      "url_caratula": "https://placehold.co/200x300/3f6212/ffffff?text=Saving+Private+Ryan+8.6"
+    },
+    {
+      "id": 36,
+      "titulo": "La Milla Verde",
+      "url_caratula": "https://placehold.co/200x300/065f46/ffffff?text=Green+Mile+8.6"
+    },
+    {
+      "id": 38,
+      "titulo": "Gladiator",
+      "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Gladiator+8.5"
+    },
+    {
+      "id": 40,
+      "titulo": "El Pianista",
+      "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=The+Pianist+8.5"
+    },
+    {
+      "id": 42,
+      "titulo": "V de Vendetta",
+      "url_caratula": "https://placehold.co/200x300/581c87/ffffff?text=V+for+Vendetta+8.2"
+    },
+    {
+      "id": 44,
+      "titulo": "American History X",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Am+History+X+8.5"
+    },
+    {
+      "id": 46,
+      "titulo": "Psicosis",
+      "url_caratula": "https://placehold.co/200x300/262626/ffffff?text=Psycho+8.5"
+    },
+    {
+      "id": 48,
+      "titulo": "Braveheart",
+      "url_caratula": "https://placehold.co/200x300/104e8b/ffffff?text=Braveheart+8.4"
+    },
+    {
+      "id": 50,
+      "titulo": "Whiplash",
+      "url_caratula": "https://placehold.co/200x300/38bdf8/000000?text=Whiplash+8.5"
+    },
+    {
+      "id": 52,
+      "titulo": "Gran Torino",
+      "url_caratula": "https://placehold.co/200x300/94a3b8/ffffff?text=Gran+Torino+8.2"
+    },
+    {
+      "id": 54,
+      "titulo": "Malditos bastardos",
+      "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Basterds+8.3"
+    },
+    {
+      "id": 56,
+      "titulo": "Oldboy",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Oldboy+8.4"
+    },
+    {
+      "id": 58,
+      "titulo": "Toy Story",
+      "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Toy+Story+8.3"
+    },
+    {
+      "id": 60,
+      "titulo": "Eternal Sunshine of the Spotless Mind",
+      "url_caratula": "https://placehold.co/200x300/a78bfa/000000?text=Eternal+Sunshine+8.3"
+    },
+    {
+      "id": 62,
+      "titulo": "Aliens",
+      "url_caratula": "https://placehold.co/200x300/101010/ffffff?text=Aliens+8.3"
+    },
+    {
+      "id": 64,
+      "titulo": "El laberinto del fauno",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Pan's+Labyrinth+8.2"
+    },
+    {
+      "id": 66,
+      "titulo": "Reservoir Dogs",
+      "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=Reservoir+Dogs+8.3"
+    },
+    {
+      "id": 68,
+      "titulo": "La vida de Brian",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Life+of+Brian+8.0"
+    },
+    {
+      "id": 70,
+      "titulo": "Donnie Darko",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Donnie+Darko+8.0"
+    },
+    {
+      "id": 72,
+      "titulo": "El Secreto de sus Ojos",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=El+Secreto+8.2"
+    },
+    {
+      "id": 74,
+      "titulo": "Apocalypse Now",
+      "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Apocalypse+Now+8.4"
+    },
+    {
+      "id": 76,
+      "titulo": "El Resplandor",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=The+Shining+8.4"
+    },
+    {
+      "id": 78,
+      "titulo": "Spider-Man: Un nuevo universo",
+      "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Spider-Verse+8.4"
+    },
+    {
+      "id": 80,
+      "titulo": "Parásitos",
+      "url_caratula": "https://placehold.co/200x300/000000/ffffff?text=Parasite+8.5"
+    },
+    {
+      "id": 82,
+      "titulo": "El Renacido",
+      "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=The+Revenant+8.0"
+    },
+    {
+      "id": 84,
+      "titulo": "E.T., el extraterrestre",
+      "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=E.T.+7.9"
+    },
+    {
+      "id": 86,
+      "titulo": "Wall-E",
+      "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Wall-E+8.4"
+    },
+    {
+      "id": 88,
+      "titulo": "La princesa Mononoke",
+      "url_caratula": "https://placehold.co/200x300/065f46/ffffff?text=Mononoke+8.4"
+    },
+    {
+      "id": 90,
+      "titulo": "El Castillo Ambulante",
+      "url_caratula": "https://placehold.co/200x300/9333ea/ffffff?text=Howl's+Castle+8.2"
+    },
+    {
+      "id": 92,
+      "titulo": "El Sexto Sentido",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Sixth+Sense+8.2"
+    },
+    {
+      "id": 94,
+      "titulo": "Up",
+      "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Up+8.3"
+    },
+    {
+      "id": 96,
+      "titulo": "El gran Lebowski",
+      "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Lebowski+8.1"
+    },
+    {
+      "id": 98,
+      "titulo": "Alien, el octavo pasajero",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Alien+8.5"
+    },
+    {
+      "id": 100,
+      "titulo": "El Indomable Will Hunting",
+      "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=Will+Hunting+8.3"
+    },
+    {
+      "id": 101,
+      "titulo": "Atrápame si puedes",
+      "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Catch+Me+If+You+Can+8.1"
+    },
+    {
+      "id": 102,
+      "titulo": "El show de Truman",
+      "url_caratula": "https://placehold.co/200x300/1e40af/ffffff?text=Truman+Show+8.2"
+    },
+    {
+      "id": 103,
+      "titulo": "El viaje de Chihiro",
+      "url_caratula": "https://placehold.co/200x300/9333ea/ffffff?text=Spirited+Away+8.6"
+    },
+    {
+      "id": 104,
+      "titulo": "El club de los poetas muertos",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Dead+Poets+8.1"
+    },
+    {
+      "id": 105,
+      "titulo": "El silencio de los corderos",
+      "url_caratula": "https://placehold.co/200x300/292524/ffffff?text=Silence+of+the+Lambs+8.6"
+    },
+    {
+      "id": 106,
+      "titulo": "Donnie Brasco",
+      "url_caratula": "https://placehold.co/200x300/374151/ffffff?text=Donnie+Brasco+7.7"
+    },
+    {
+      "id": 107,
+      "titulo": "Trainspotting",
+      "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Trainspotting+8.1"
+    },
+    {
+      "id": 108,
+      "titulo": "El lobo de Wall Street",
+      "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=Wolf+of+Wall+Street+8.2"
+    },
+    {
+      "id": 109,
+      "titulo": "Bastardos sin gloria",
+      "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=Inglourious+Basterds+8.3"
+    },
+    {
+      "id": 110,
+      "titulo": "Regreso al futuro",
+      "url_caratula": "https://placehold.co/200x300/6d28d9/ffffff?text=Back+to+the+Future+8.5"
+    },
+    {
+      "id": 4,
+      "titulo": "Breaking Bad",
+      "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Breaking+Bad+9.5"
+    },
+    {
+      "id": 6,
+      "titulo": "Juego de Tronos",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Game+of+Thrones+9.2"
+    },
+    {
+      "id": 8,
+      "titulo": "Chernobyl",
+      "url_caratula": "https://placehold.co/200x300/3f3f46/ffffff?text=Chernobyl+9.3"
+    },
+    {
+      "id": 10,
+      "titulo": "The Wire",
+      "url_caratula": "https://placehold.co/200x300/4c4c4c/ffffff?text=The+Wire+9.3"
+    },
+    {
+      "id": 12,
+      "titulo": "The Sopranos",
+      "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=Sopranos+9.2"
+    },
+    {
+      "id": 14,
+      "titulo": "Avatar: La Leyenda de Aang",
+      "url_caratula": "https://placehold.co/200x300/06b6d4/ffffff?text=Avatar+Aang+9.3"
+    },
+    {
+      "id": 16,
+      "titulo": "Friends",
+      "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Friends+8.9"
+    },
+    {
+      "id": 18,
+      "titulo": "Rick y Morty",
+      "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Rick+%26+Morty+9.1"
+    },
+    {
+      "id": 20,
+      "titulo": "Arcane",
+      "url_caratula": "https://placehold.co/200x300/f87171/ffffff?text=Arcane+9.0"
+    },
+    {
+      "id": 23,
+      "titulo": "Planet Earth II",
+      "url_caratula": "https://placehold.co/200x300/0c4a6e/ffffff?text=Planet+Earth+II+9.5"
+    },
+    {
+      "id": 25,
+      "titulo": "Cosmos",
+      "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=Cosmos+9.3"
+    },
+    {
+      "id": 27,
+      "titulo": "Fargo",
+      "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Fargo+8.9"
+    },
+    {
+      "id": 29,
+      "titulo": "Band of Brothers",
+      "url_caratula": "https://placehold.co/200x300/6b7280/ffffff?text=Band+of+Brothers+9.4"
+    },
+    {
+      "id": 31,
+      "titulo": "True Detective",
+      "url_caratula": "https://placehold.co/200x300/333333/ffffff?text=True+Detective+8.9"
+    },
+    {
+      "id": 33,
+      "titulo": "Peaky Blinders",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Peaky+Blinders+8.8"
+    },
+    {
+      "id": 35,
+      "titulo": "Sherlock",
+      "url_caratula": "https://placehold.co/200x300/155e75/ffffff?text=Sherlock+9.1"
+    },
+    {
+      "id": 37,
+      "titulo": "Black Mirror",
+      "url_caratula": "https://placehold.co/200x300/000000/ffffff?text=Black+Mirror+8.8"
+    },
+    {
+      "id": 39,
+      "titulo": "Stranger Things",
+      "url_caratula": "https://placehold.co/200x300/be123c/ffffff?text=Stranger+Things+8.7"
+    },
+    {
+      "id": 41,
+      "titulo": "Better Call Saul",
+      "url_caratula": "https://placehold.co/200x300/f59e0b/ffffff?text=Better+Call+Saul+8.9"
+    },
+    {
+      "id": 43,
+      "titulo": "Arrested Development",
+      "url_caratula": "https://placehold.co/200x300/7e22ce/ffffff?text=Arrested+Development+8.7"
+    },
+    {
+      "id": 45,
+      "titulo": "Fleabag",
+      "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Fleabag+8.7"
+    },
+    {
+      "id": 47,
+      "titulo": "Rick and Morty: The Animated Series",
+      "url_caratula": "https://placehold.co/200x300/34d399/000000?text=R%26M+Animated+9.1"
+    },
+    {
+      "id": 49,
+      "titulo": "Mindhunter",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Mindhunter+8.6"
+    },
+    {
+      "id": 51,
+      "titulo": "Padre de familia",
+      "url_caratula": "https://placehold.co/200x300/eab308/000000?text=Family+Guy+8.2"
+    },
+    {
+      "id": 53,
+      "titulo": "Ozark",
+      "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Ozark+8.5"
+    },
+    {
+      "id": 55,
+      "titulo": "Dark",
+      "url_caratula": "https://placehold.co/200x300/171717/ffffff?text=Dark+8.7"
+    },
+    {
+      "id": 57,
+      "titulo": "The Crown",
+      "url_caratula": "https://placehold.co/200x300/94a3b8/000000?text=The+Crown+8.6"
+    },
+    {
+      "id": 59,
+      "titulo": "The Mandalorian",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Mandalorian+8.7"
+    },
+    {
+      "id": 61,
+      "titulo": "Succession",
+      "url_caratula": "https://placehold.co/200x300/4c4c4c/ffffff?text=Succession+8.8"
+    },
+    {
+      "id": 63,
+      "titulo": "Line of Duty",
+      "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Line+of+Duty+8.7"
+    },
+    {
+      "id": 65,
+      "titulo": "Attack on Titan",
+      "url_caratula": "https://placehold.co/200x300/991b1b/ffffff?text=AoT+9.1"
+    },
+    {
+      "id": 67,
+      "titulo": "Freaks and Geeks",
+      "url_caratula": "https://placehold.co/200x300/facc15/000000?text=Freaks+%26+Geeks+8.8"
+    },
+    {
+      "id": 69,
+      "titulo": "The Good Place",
+      "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=Good+Place+8.2"
+    },
+    {
+      "id": 71,
+      "titulo": "Ted Lasso",
+      "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Ted+Lasso+8.8"
+    },
+    {
+      "id": 73,
+      "titulo": "House of Cards",
+      "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=House+of+Cards+8.7"
+    },
+    {
+      "id": 75,
+      "titulo": "BoJack Horseman",
+      "url_caratula": "https://placehold.co/200x300/7c3aed/ffffff?text=BoJack+8.8"
+    },
+    {
+      "id": 77,
+      "titulo": "Mr. Robot",
+      "url_caratula": "https://placehold.co/200x300/18181b/ffffff?text=Mr+Robot+8.6"
+    },
+    {
+      "id": 79,
+      "titulo": "Westworld",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Westworld+8.5"
+    },
+    {
+      "id": 81,
+      "titulo": "El Juego del Calamar",
+      "url_caratula": "https://placehold.co/200x300/b91c1c/ffffff?text=Squid+Game+8.0"
+    },
+    {
+      "id": 83,
+      "titulo": "Twin Peaks",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Twin+Peaks+8.8"
+    },
+    {
+      "id": 85,
+      "titulo": "The Queen's Gambit",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Queen's+Gambit+8.6"
+    },
+    {
+      "id": 87,
+      "titulo": "Monty Python's Flying Circus",
+      "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Monty+Python+8.8"
+    },
+    {
+      "id": 89,
+      "titulo": "Mad Men",
+      "url_caratula": "https://placehold.co/200x300/a3e635/000000?text=Mad+Men+8.7"
+    },
+    {
+      "id": 91,
+      "titulo": "Seinfeld",
+      "url_caratula": "https://placehold.co/200x300/f97316/ffffff?text=Seinfeld+8.9"
+    },
+    {
+      "id": 93,
+      "titulo": "Carnival Row",
+      "url_caratula": "https://placehold.co/200x300/713f12/ffffff?text=Carnival+Row+7.8"
+    },
+    {
+      "id": 95,
+      "titulo": "Atlanta",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Atlanta+8.6"
+    },
+    {
+      "id": 97,
+      "titulo": "The Office (US)",
+      "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=The+Office+9.0"
+    },
+    {
+      "id": 99,
+      "titulo": "Community",
+      "url_caratula": "https://placehold.co/200x300/fbbf24/000000?text=Community+8.5"
+    },
+    {
+      "id": 111,
+      "titulo": "The Haunting of Hill House",
+      "url_caratula": "https://placehold.co/200x300/1f2937/ffffff?text=Hill+House+8.6"
+    },
+    {
+      "id": 112,
+      "titulo": "The Expanse",
+      "url_caratula": "https://placehold.co/200x300/030712/ffffff?text=The+Expanse+8.5"
+    },
+    {
+      "id": 113,
+      "titulo": "One-Punch Man",
+      "url_caratula": "https://placehold.co/200x300/f87171/ffffff?text=One-Punch+Man+8.7"
+    },
+    {
+      "id": 114,
+      "titulo": "Daredevil",
+      "url_caratula": "https://placehold.co/200x300/10b981/ffffff?text=Daredevil+8.6"
+    },
+    {
+      "id": 115,
+      "titulo": "Outlander",
+      "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Outlander+8.4"
+    },
+    {
+      "id": 116,
+      "titulo": "Sense8",
+      "url_caratula": "https://placehold.co/200x300/94a3b8/ffffff?text=Sense8+8.2"
+    },
+    {
+      "id": 117,
+      "titulo": "Homeland",
+      "url_caratula": "https://placehold.co/200x300/1e293b/ffffff?text=Homeland+8.3"
+    },
+    {
+      "id": 118,
+      "titulo": "Doctor Who",
+      "url_caratula": "https://placehold.co/200x300/06b6d4/ffffff?text=Doctor+Who+8.6"
+    },
+    {
+      "id": 119,
+      "titulo": "Westworld: Season 1",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Westworld+S1+8.5"
+    },
+    {
+      "id": 120,
+      "titulo": "Narcos",
+      "url_caratula": "https://placehold.co/200x300/7c2d12/ffffff?text=Narcos+8.8"
+    },
+    {
+      "id": 121,
+      "titulo": "The Handmaid's Tale",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Handmaid's+Tale+8.4"
+    },
+    {
+      "id": 122,
+      "titulo": "Kingdom",
+      "url_caratula": "https://placehold.co/200x300/22c55e/ffffff?text=Kingdom+8.4"
+    },
+    {
+      "id": 123,
+      "titulo": "Dark: Season 1",
+      "url_caratula": "https://placehold.co/200x300/171717/ffffff?text=Dark+S1+8.7"
+    },
+    {
+      "id": 124,
+      "titulo": "Brooklyn Nine-Nine",
+      "url_caratula": "https://placehold.co/200x300/fcd34d/000000?text=Brooklyn+99+8.4"
+    },
+    {
+      "id": 125,
+      "titulo": "Mindhunter: Season 1",
+      "url_caratula": "https://placehold.co/200x300/0f172a/ffffff?text=Mindhunter+S1+8.6"
+    },
+    {
+      "id": 126,
+      "titulo": "The Boys",
+      "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=The+Boys+8.7"
+    },
+    {
+      "id": 127,
+      "titulo": "Better Call Saul: Season 1",
+      "url_caratula": "https://placehold.co/200x300/f59e0b/ffffff?text=BCS+S1+8.9"
+    },
+    {
+      "id": 128,
+      "titulo": "Derry Girls",
+      "url_caratula": "https://placehold.co/200x300/94a3b8/000000?text=Derry+Girls+8.5"
+    },
+    {
+      "id": 129,
+      "titulo": "Sex Education",
+      "url_caratula": "https://placehold.co/200x300/ef4444/ffffff?text=Sex+Education+8.3"
+    },
+    {
+      "id": 130,
+      "titulo": "This Is Us",
+      "url_caratula": "https://placehold.co/200x300/1e3a8a/ffffff?text=This+Is+Us+8.7"
+    },
+    {
+      "id": 131,
+      "titulo": "Fleabag: Season 1",
+      "url_caratula": "https://placehold.co/200x300/dc2626/ffffff?text=Fleabag+S1+8.7"
+    },
+    {
+      "id": 132,
+      "titulo": "The Umbrella Academy",
+      "url_caratula": "https://placehold.co/200x300/581c87/ffffff?text=Umbrella+Academy+8.0"
+    },
+    {
+      "id": 133,
+      "titulo": "Fargo: Season 1",
+      "url_caratula": "https://placehold.co/200x300/5b21b6/ffffff?text=Fargo+S1+8.9"
+    },
+    {
+      "id": 134,
+      "titulo": "Lucifer",
+      "url_caratula": "https://placehold.co/200x300/4c0519/ffffff?text=Lucifer+8.1"
+    },
+    {
+      "id": 135,
+      "titulo": "The Good Place: Season 1",
+      "url_caratula": "https://placehold.co/200x300/6366f1/ffffff?text=Good+Place+S1+8.2"
+    },
+    {
+      "id": 136,
+      "titulo": "The Witcher",
+      "url_caratula": "https://placehold.co/200x300/0f766e/ffffff?text=The+Witcher+8.1"
+    },
+    {
+      "id": 137,
+      "titulo": "The Last Kingdom",
+      "url_caratula": "https://placehold.co/200x300/7f1d1d/ffffff?text=Last+Kingdom+8.4"
+    },
+    {
+      "id": 138,
+      "titulo": "House of the Dragon",
+      "url_caratula": "https://placehold.co/200x300/083344/ffffff?text=House+of+the+Dragon+8.4"
+    },
+    {
+      "id": 139,
+      "titulo": "Only Murders in the Building",
+      "url_caratula": "https://placehold.co/200x300/fde047/000000?text=Only+Murders+8.1"
+    },
+    {
+      "id": 140,
+      "titulo": "The Marvelous Mrs. Maisel",
+      "url_caratula": "https://placehold.co/200x300/eab308/000000?text=Mrs+Maisel+8.7"
+    }
+  ]
 }
