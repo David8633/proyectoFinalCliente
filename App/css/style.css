@@ -1,0 +1,27 @@
+  body {
+            background-color: #040329;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: #00054d;
+        }
+
+        .card {
+            background-color: #0a095f;
+            border: none;
+        }
+
+        .card img {
+            border-radius: 5px;
+        }
+
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .category-title {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }

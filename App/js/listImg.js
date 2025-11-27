@@ -1,7 +1,16 @@
-let url = 'http://localhost:3000/caratulas';
+import { navbar } from "./navbar.js";
+let urlCaratula = 'http://localhost:3000/caratulas';
+let urlPelicula = 'http://localhost:3000/peliculas';
 
 document.addEventListener('DOMContentLoaded', () => { 
-    fetch(url, { method: 'GET' })
+    const nav = document.getElementById('nav');
+    const div = document.createElement('div');
+    div.innerHTML = navbar();
+    nav.appendChild(div);
+
+    fetch(urlCaratula, {
+        method: 'GET'
+    })
     .then(response => response.ok ? response.json() : Promise.reject(response))
     .then(data => { 
         const carrusel = document.getElementById('imgs');
@@ -24,7 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }) 
     .catch(err => console.error("Error cargando carátulas:", err));
 
-    fetch(url)
+    fetch(urlPelicula,{
+      method: 'GET'
+    })
     .then(res => res.json())
     .then(data => {
       const populares = document.getElementById('populares');
@@ -33,8 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="card">
             <img src="${pelicula.url_caratula}" class="card-img-top" alt="${pelicula.titulo}">
             <div class="card-body">
-              <h5 class="card-title">${pelicula.titulo}</h5>
-              <p class="card-text">⭐ ${pelicula.calificacion_imdb}</p>
+              <h5 class="card-title  text-light">${pelicula.titulo}</h5>
+              <p class="card-text  text-light bi bi-star-fill"> ${pelicula.calificacion_imdb}</p>
             </div>
           </div>
         </div>`).join('');
