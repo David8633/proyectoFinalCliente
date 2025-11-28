@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="card-text text-light">Género: ${pelicula.generos}</p>
                 <p class="card-text text-light bi bi-star-fill">Calificación: ${pelicula.calificacion_imdb}</p>
                 <div class="btn-group">
-                    <button  id="ver" type="button" class="btn btn-sm btn-outline-secondary text-light" data-id="${pelicula.id}">View</button></a>
+                    //hay que hacer route para que funciones
+                    <a href="./../html/peliculaDetalle.html/${pelicula.id}"><button type="button" class="btn btn-sm btn-outline-secondary text-light">View</button></a>
                 </div>
             </div>
         </div>

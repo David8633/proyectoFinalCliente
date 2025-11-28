@@ -1,8 +1,20 @@
+document.addEventListener('DOMContentLoaded', () => { 
+    let url = 'http://localhost:3000/peliculas';
+    const nav = document.getElementById('nav');
+    const div = document.createElement('div');
+    div.innerHTML = navbar();
+    nav.appendChild(div);
 
+    const [urlLocal,id] =  window.location().split('/');
 
-function verDetallePelicula(objeto){
-
-    return `<div class="card-body">
+    fetch(url+'/'+id,{
+        metdockerhod:'GET'
+    })
+    .then(res => res.json())
+    .then(data => {
+      const peliculaDetalle = document.getElementById('detalles');
+     peliculaDetalle.innerHTML = data.map(objeto => 
+    `<div class="card-body">
                         <div class="col-md-4">
                             <div class="detail-image-wrapper">
                                 <img src=${objeto.url_caratula}
@@ -26,5 +38,9 @@ function verDetallePelicula(objeto){
                                     <small class="text-muted d-block">Calificación IMDb</small>
                                     <p class="fw-bold mb-0 text-success"><i class="bi bi-star-fill me-1"></i> ${objeto.calificacion_imdb} / 10</p>
                                 </div>
-                            </div>`;
-}
+                            </div>`
+).join('');
+    })
+    .catch(err => console.error("Error cargando películas:", err));
+});
+
