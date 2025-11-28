@@ -2,13 +2,13 @@ import { navbar } from "./navbar.js";
 let urlCaratula = 'http://localhost:3000/caratulas';
 let urlPelicula = 'http://localhost:3000/peliculas';
 
-document.addEventListener('DOMContentLoaded', () => { 
+export function listImg(){
     const nav = document.getElementById('nav');
     const div = document.createElement('div');
     div.innerHTML = navbar();
     nav.appendChild(div);
 
-    fetch(urlCaratula, {
+    return (fetch(urlCaratula, {
         method: 'GET'
     })
     .then(response => response.ok ? response.json() : Promise.reject(response))
@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         </div>`).join('');
     })
-    .catch(err => console.error("Error cargando películas:", err));
-});
+    .catch(err => console.error("Error cargando películas:", err)););
+}
 
 
 
