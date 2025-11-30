@@ -5,7 +5,7 @@ let urlCaratula = 'http://localhost:3000/caratulas';
  * Assumes 'view' is the .carousel-inner container element.
  * * @param {HTMLElement} view The container element (e.g., the .carousel-inner div)
  */
-export function listImg(view) {
+export function aboutViews(view) {
 
     // Ensure the container element is provided
     if (!view) {
@@ -24,9 +24,11 @@ export function listImg(view) {
             view.innerHTML = `
                 <div class="p-5 mb-4 rounded-3 border/20">
                     <div class="container-fluid py-5">
-                        <h1 class="display-5 fw-bold text-primary">Hola Bienvenido, a nuestra App</h1>
+                        <h1 class="display-5 fw-bold text-primary">Sobre Nosotros</h1>
                         <p class="col-md-10 fs-4 text-secondary">
-                            Te ofrecemos la mejores peliculas y series de la historia.
+                            Somos un equipo apasionado por el diseño digital y la cultura pop. 
+                            Nuestra plataforma se dedica a recopilar y mostrar las mejores películas, celebrando el arte detrás de cada pieza. Creemos que la 
+                            presentación visual es tan importante como el contenido mismo.
                         </p>
                     </div>
                 </div>

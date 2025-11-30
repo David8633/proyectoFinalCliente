@@ -25,3 +25,22 @@
             margin-top: 2rem;
             margin-bottom: 1rem;
         }
+
+       
+        .container {
+            max-width: 1000px;
+        }
+        .favorite-card {
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+        .table thead {
+            background-color: #3b82f6; /* Color primario de Tailwind */
+            color: white;
+        }
+        .btn-delete {
+            transition: background-color 0.15s ease-in-out;
+        }
+        .btn-delete:hover {
+            background-color: #ef4444 !important; /* Rojo más oscuro */
+        }

@@ -14,16 +14,16 @@ function navbar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#/">Inicio</a>
+              <a class="nav-link" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#/series">Series</a>
+              <a class="nav-link" href="#peliculas">Películas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#/peliculas">Películas</a>
+              <a class="nav-link" href="#lista">Mi Lista</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#/lista">Mi Lista</a>
+              <a class="nav-link" href="#about">Sobre Nosotros</a>
             </li>
           </ul>
         </div>

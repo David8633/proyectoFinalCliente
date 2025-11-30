@@ -1,8 +1,10 @@
 // router.js
 import { navbar } from './navbar.js';
-import { peliculasView } from "./views/peliculasViews.js";
-import { peliculaDetalleView } from "./peliculaDetalles.js";
+import { peliculasViews } from "./views/peliculasViews.js";
+import { detalles } from "./detalles.js";
 import { listImg } from './listImg.js';
+import { aboutViews } from './views/aboutViews.js';
+import { favoritos } from './favoritos.js';
 
 function notFoundView() {
     return "<h1>Página no encontrada</h1>";
@@ -19,26 +21,44 @@ export function routes() {
 
     const routes = {
         "": () => { 
-            listImg();
-            return "<h1>Inicio</h1>";
+            listImg(view);
         },
         "peliculas": () => {
-            peliculasView(view);
-            return ""; 
+            peliculasViews(view);
+        },
+        "about": () =>{
+            aboutViews(view);
+        },
+        "lista": () => {
+            favoritos(view);
         }
     };
 
-    // 👉 DETALLE DE PELÍCULA
-    if (parts[0] === "peliculas" && parts[1]) {
-        const id = parts[1];
-        view.innerHTML = peliculaDetalleView(id, view);
-        return;
+   if (parts[0] === "peliculadetalle" && parts[1]) {
+        const url = 'http://localhost:3000/peliculas';
+        const id = parts[1]; // El ID ahora está en parts[1]
+        detalles(id, view,url);
+    }else if(parts[0] === "seriedetalle" && parts[1]){
+        const url = 'http://localhost:3000/series';
+        const id = parts[1]; // El ID ahora está en parts[1]
+        detalles(id, view,url);
     }
 
-    // 👉 RENDERIZAR VISTA NORMAL
-    const screen = routes[parts[0]] || notFoundView;
-    view.innerHTML = screen();
+    if (parts[0] === "lista" && parts[1]) {
+        const url = 'http://localhost:3000/peliculas';
+        const id = parts[1]; // El ID ahora está en parts[1]
+        favoritos(id, view,url);
+    }
+
+
+    // 2. Si NO es la ruta de detalle, manejamos las rutas normales o el inicio
+    else {
+        // parts[0] será "" para el inicio, "peliculas", o "series"
+        const screen = routes[parts[0]] || notFoundView;
+        view.innerHTML = screen();
+    }
 }
+
 
 // Escuchar cambios en hash
 window.addEventListener("hashchange", routes);
