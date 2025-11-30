@@ -78,28 +78,6 @@ export function favoritos(id, view, url) {
                 </table>
             </div>`;
         }
-
-// 🛑 IMPORTANTE: Cambia 'tu-id-del-contenedor-de-la-tabla' por el ID real de tu DIV en el HTML
-const contenedorTablaFavoritos = document.getElementById('remove'); 
-
-// 1. Verificar que el contenedor existe
-if (contenedorTablaFavoritos) {
-    // 2. Usar Delegación de Eventos en el contenedor padre
-    contenedorTablaFavoritos.addEventListener('click', (e) => {
-        
-        // 3. Verificar si el elemento clickeado es el botón de eliminación
-        if (e.target.classList.contains('btn-delete')) {
-            
-            // 4. Obtener el ID de la película del atributo data-id del botón
-            const peliculaId = e.target.getAttribute('data-id');
-            
-            let favo = JSON.parse(localStorage.getItem('peliculaFavorita'));
-            favo.filter(f => f.id != peliculaId);
-            localStorage.setItem('peliculaFavorita',JSON.stringify(favo));
-            favoritos(id,view,url);
-        }
-    });
-}
     })
     .catch(error => {
         // En caso de error de la API
