@@ -1,23 +1,11 @@
-// peliculasView.js
-
-// 🛑 IMPORT DE NAVBAR ELIMINADO: Ya no se necesita aquí.
-let url = 'http://localhost:3000/peliculas';
-
-/**/
-
-export function peliculasViews(view){
-    // 🛑 ELIMINADO: Esta inyección debe ocurrir SOLO una vez en el router.js
-    // const nav = document.getElementById("nav");
-    // nav.innerHTML = navbar(); 
-
-
+export function peliculasViews(view,url){
     return fetch(url,{
         method:'GET'
     })
     .then(res => res.json())
     .then(data => {
-        // La vista utiliza el argumento 'view' correctamente
-        view.innerHTML = `
+      const peliculas = data.peliculas;
+      view.innerHTML = `
   <section class="py-5 text-center container">
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-md-8 mx-auto">
@@ -27,7 +15,7 @@ export function peliculasViews(view){
   </section>
         <div class="container"> 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
-      ${data.map(pelicula => `
+      ${peliculas.map(pelicula => `
         <div class="col mb-3"> 
           <div class="card shadow-sm h-100">
             <img src="${pelicula.url_caratula}" class="card-img-top" alt="Carátula de ${pelicula.titulo}">

@@ -1,10 +1,11 @@
 export function detalles(id,view,url){
 
-    return (fetch(url+'/'+id,{
+    return (fetch(url,{
         metdockerhod:'GET'
     })
     .then(res => res.json())
-    .then(pelicula => { 
+    .then(data => { 
+        const pelicula = data.peliculas.filter(p=>p.id == id)[0];
       view.innerHTML = `
 <div class="container my-5">
     <div class="row justify-content-center">

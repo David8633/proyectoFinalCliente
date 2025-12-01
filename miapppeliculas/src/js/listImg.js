@@ -1,26 +1,5 @@
-let urlCaratula = 'http://localhost:3000/caratulas';
 
-/**
- * Fetches cover image URLs and populates a Bootstrap carousel.
- * Assumes 'view' is the .carousel-inner container element.
- * * @param {HTMLElement} view The container element (e.g., the .carousel-inner div)
- */
 export function listImg(view) {
-
-    // Ensure the container element is provided
-    if (!view) {
-        console.error("Error: View element is missing.");
-        return;
-    }
-
-    return fetch(urlCaratula)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
             view.innerHTML = `
                 <div class="p-5 mb-4 rounded-3 border/20">
                     <div class="container-fluid py-5">
@@ -31,6 +10,5 @@ export function listImg(view) {
                     </div>
                 </div>
             `;
-        })
-        .catch(err => console.error("Error cargando carátulas:", err));
-}
+    return view;
+        }
